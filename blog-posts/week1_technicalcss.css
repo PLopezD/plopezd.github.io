@@ -24,4 +24,5 @@
     display:inline;
     
 }
-li {display:inline;}
+li {display:inline;
+width: 250px;}
