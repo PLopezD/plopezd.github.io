@@ -56,6 +56,6 @@ a:active {
 h2 { 
    position: absolute; 
    top: 200px; 
-   left: 0; 
+   left: 100px; 
    width: 100%; 
 }
