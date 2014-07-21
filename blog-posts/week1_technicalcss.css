@@ -6,7 +6,9 @@
   padding:0px;
 	text-align:center;
  }
-
+table, th, td {
+    border: 1px solid black;
+}
 .content li {
     width: 800px;
     word-wrap: break-word;
