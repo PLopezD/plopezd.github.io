@@ -1,2 +1,12 @@
-#footer { border:5px solid #000; width:500px; height:5px;
+#footer { border:5px solid #000; width:200px; height:1px;
     margin: 250px 250px 100px 100px;
+
+#header1 {    position:absolute;
+    top:0; bottom:0; left:0;
+    width:50px;
+    background:#500;}
+
+#body{}
+
+#sidebar {}
+
