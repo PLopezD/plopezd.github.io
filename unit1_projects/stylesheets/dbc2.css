@@ -17,8 +17,8 @@ float:center;
     background:blue}
 
 #footer { 
-    position:absolute;
-    bottom:0;
+   
+    bottom:100px;
     Left:0;
     border:5px solid #000; width:100%; height:100px;
     margin: 5px 5px 5px 5px;
