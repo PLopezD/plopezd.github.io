@@ -7,13 +7,13 @@
 	text-align:center;
  }
  links{
-    list-style-type: none;
+    list-style-type: Square;
     margin: 0;
     padding: 0;
     overflow: hidden;
 
     float: left;
-    li{display: inline;}
+    display: inline;
     margin: 25px;
     width: 600px;
     background-color: #FFD700;
