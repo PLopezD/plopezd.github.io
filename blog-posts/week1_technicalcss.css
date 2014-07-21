@@ -8,15 +8,17 @@
  }
 ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    background-color: #80000
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li {
-    display: inline;
+    float: left;
 }
- a{ display: block;
-    width: 100px;
+
+a {
+    display: block;
+    width: 60px;
     background-color: #80000;
- }
+}
