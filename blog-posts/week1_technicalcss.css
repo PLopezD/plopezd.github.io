@@ -9,8 +9,12 @@
 button {
   padding: 0;
   cursor: pointer;
-  background: transparent;
   border: 0;
   color:white;
   background-color: Black
+  overflow: visible;
+  text-transform: none;
+   font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
