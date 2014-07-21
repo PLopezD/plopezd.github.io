@@ -3,5 +3,12 @@
    padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  
  }
+button {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color:white;
+  background-color: white
+}
