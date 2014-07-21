@@ -26,6 +26,19 @@ font-style: italic
     margin: 50px 50px 50px 50px;
 	background-color:#ee5;
 	font-size:20px}
-	
+
+	a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: pink;
+}
+
 #body {
 background-image:"http://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Soccer_ball.svg/480px-Soccer_ball.svg.png";}
