@@ -41,5 +41,7 @@ a:active {
     color: pink;
 }
 
-#body {
-background-image:"http://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Soccer_ball.svg/480px-Soccer_ball.svg.png";}
+.ball { display: block;
+  max-width: 100%;
+  height: auto
+}
