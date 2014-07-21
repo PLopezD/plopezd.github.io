@@ -13,7 +13,7 @@
     overflow: hidden;
 
     float: left;
-    display: inline;
+    li{display: inline;}
     margin: 25px;
     width: 600px;
     background-color: #FFD700;
