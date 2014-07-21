@@ -17,13 +17,14 @@ font-style: italic
     background:blue}
 
 #footer { 
-   position:absolute;
+   
     bottom:0;
     border:5px solid #000; 
     height:100px;
     width:500px;
     margin: 50px 50px 50px 50px;
-	background:#ee5}
+	background:#ee5
+	font-size:20px}
 	
 body
 {
