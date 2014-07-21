@@ -23,3 +23,13 @@ display: inline;
 list-style-type: none;
 padding-right: 50px;
 }
+
+#foot {
+   Border:dotted;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
