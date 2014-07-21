@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-
+       display: inline;
     float: left;
     display: inline;
     margin: 25px;
