@@ -20,3 +20,7 @@
     width:500px;
     background:blue;}
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
