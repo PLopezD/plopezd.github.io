@@ -28,3 +28,9 @@ li {display:inline;
     
     width: 250px}
 
+#navigation li
+{
+display: inline;
+list-style-type: none;
+padding-right: 50px;
+}
