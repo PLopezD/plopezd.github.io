@@ -19,7 +19,7 @@ font-style: italic
     background:#C0C0C0}
 
 #footer { 
-	position:absolute;
+	position:relative;
     bottom:0;
     border:5px solid #000; 
     height:100px;
