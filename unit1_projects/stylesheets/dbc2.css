@@ -10,6 +10,8 @@ font-style: italic
 }
 
 #sidebar { 
+	border-style: groove;
+    border-color: #98bf21;
     padding-top: 150px
     padding-bottom: 100px;
     padding-right: 50px;
