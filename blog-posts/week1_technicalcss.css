@@ -22,3 +22,7 @@ a {
     width: 600px;
     background-color: #FFD700;
 }
+.content {
+    width: 200px;
+    word-wrap: break-word;
+}
