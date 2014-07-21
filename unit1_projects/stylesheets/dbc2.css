@@ -48,7 +48,7 @@ a:active {
     color: pink;
 }
 
-.ball { display: block;
+.ball { display: inline;
   max-width: 50%;
   height: auto
 }
