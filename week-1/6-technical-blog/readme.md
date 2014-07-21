@@ -39,7 +39,7 @@ Copy the code from your blog template to a new HTML file called `week1_technical
 ## Release 3: Blog it
 
 Write a blog post analyzing the 3 sites in terms of user experience and design. Link to your post from `index.html` so people can navigate to your page from your site's index. 
-Don't forget to sync/push your changes to make them live on your github.io site!
+Don't forget to push your changes to make them live on your github.io site!
 
 ## Release 4: Reflect
 On your local `phase-0-unit-1` repo, edit the [my_reflection.md](my_reflection.md) file associated with this challenge. Commit your changes and save them to GitHub. 

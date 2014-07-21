@@ -1,16 +1,16 @@
 # HTML and CSS cont. 
 
-Please do not start week 2. We will release it with changes at least by the Sunday before week 2 begins. 
+<!-- Please do not start week 2. We will release it with changes at least by the Sunday before week 2 begins.  -->
 
 
-<!-- This week you will go into more depth on HTML and CSS and get more practice. You will also get to play with Dev Tools and consider the implications of responsive Design. Overall, this week's curriculum should give you the opportunity to go into more depth with HTML and have fun solidifying your knowledge!
+This week you will go into more depth on HTML and CSS and get more practice. You will also get to play with Dev Tools and consider the implications of responsive Design. Overall, this week's curriculum should give you the opportunity to go into more depth with HTML and have fun solidifying your knowledge!
 
 You have a [Cultural Assignment](7_cultural_assignment.md) this week you should look at first. 
 
 ## Challenges
 1. [Chrome Dev Tools](1-Chrome-Dev-Tools)
 2. [Intermediate HTML and CSS](2-Intermediate-HTML-CSS)
-3. [Responsive Web Design](3-Responsive-Web-Design)
+3. [Responsive Web Design](3-Responsive-Web-Design) **Mandatory Pairing Challenge - read and research before pairing**
 4. [Your Own Website - SOLO CHALLENGE!](4-Your-Own-Website-Solo-Challenge)
 5. [Think about Time](5-Think-about-time)
 6. [Technical Blog](6-technical-blog.md)
@@ -19,7 +19,7 @@ You have a [Cultural Assignment](7_cultural_assignment.md) this week you should 
 
 
 ## Fetch DBC's Changes
-####It's time to sync changes from DevBootcamp's phase_0_unit 1 master repo! Make sure you are in the master branch of your phase-0-unit-1 repo. DO NOT try fetching these changes into your [USERNAME].github.io repo. You will mess things up!
+####It's time to fetch changes from DevBootcamp's phase_0_unit 1 master repo! Make sure you are in the master branch of your phase-0-unit-1 repo. DO NOT try fetching these changes into your [USERNAME].github.io repo. You will mess things up!
 
 Follow [these instructions](https://github.com/Devbootcamp/phase-0-handbook/blob/master/fetching-changes.md)!
 
@@ -36,4 +36,4 @@ Once you have the entire local repository on your computer, you don't need to re
 **You need to submit your work through on [apply.devbootcamp.com](http://apply.devbootcamp.com) by Sunday at 11:59pm. When you log in, look at your profile page. There should be a "Unit 1 Week 2 Submission" form.** If you do not complete the challenges by Sunday, fill out the extension request form and complete the submission form when you finish.
 
 
- -->
+

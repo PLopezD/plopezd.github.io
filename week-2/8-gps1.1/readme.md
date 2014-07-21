@@ -51,11 +51,14 @@ Use CSS to make it look nice. Include pictures, outside fonts, etc.
 ## Release 4: Reflect with your pair. 
 What was it like to pair for the first time? Did you enjoy it? What worked? What didn't work? Add your reflection to your page and style it as well. 
 
-## Release 5: Copy, commit, and sync
+## Release 5: Copy, commit, and push
 When you are finished, copy your code into the [gps1.1.css](gps1.1.css) and [gps1.1.html](gps1.1.html) files. Make sure your css from the `<style>` section is in the CSS file and remove it from the HTML section. Update the html file. Then, test that everything is still  working by saving them 
 and running them together from your computer. 
 
-Commit and sync/push your changes onto the phase-0-unit-1 repository. 
+Commit and push your changes onto the phase-0-unit-1 repository. 
+
+## Release 6: Publish
+Using the terminal, practice copying the html and css sheets into a new folder in your [USERNAME]github.io site. Commit and push your changes to your github.io site. Double check that everything is displaying properly. Then add a link on the index of your site to make sure people can find it!
 
 ## Release 6: Give Feedback
 Don't forget to give [feedback](https://socrates.devbootcamp.com/feedback/new) to your pair!

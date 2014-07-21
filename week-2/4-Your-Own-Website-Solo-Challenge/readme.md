@@ -68,11 +68,13 @@ and push all your html changes to Github.
 *Remember: you can open an html file in a browser to see changes as you
 go*
 
-Get creative. Have fun.  But be conscious of time.  This will be a work in progress.
+Get creative. Have fun. But be conscious of time. This will be a work in progress, so you should timebox how much time you want to spend on it. You will be able to make improvements each week if you dedicate the time to it.
+
+*Please note: At this point in your development, we do not want you to use a framework like Bootstrap to build your site.* 
 
 ## Release 4: Reflect
 Go write your [reflection](my_reflection.md) and answer the questions!
 
-## Release 5: Commit and sync/push your changes!
+## Release 5: Commit and push your changes!
 Make sure you can see all of your changes on your github.io site!
 

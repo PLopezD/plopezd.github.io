@@ -34,13 +34,14 @@ Take a screenshot of your code school points (They appear on the right of your C
 
 Play with changing the CSS of your github.io website using Chrome Web Tools.
 
-Then, visit any blog on [wordpress.com](http://www.wordpress.com) or create your own.  Use the Chrome Web Tools to take a peek into the site.  How does it differ from your github.io site's html and css?
+Then, visit any blog on [wordpress.com](http://www.wordpress.com).  Use the Chrome Web Tools to take a peek into the site.  How does it differ from your github.io site's html and css?
 
 
 ## Release 3: Reflect 
 Go to your [Reflection file](my_reflection.md) to write your reflection - include answers to the questions in the file in addition to the [reflection guidelines](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md).
 
-## Release 4: Sync and Submit!
+## Release 4: Commit and Push 
+Commit and push your changes to GitHub.
 
 ###Resources
 - [Pagespeed Insights](https://chrome.google.com/webstore/detail/pagespeed-insights-by-goo/gplegfbjlmmehdoakndmohflojccocli?hl=en)

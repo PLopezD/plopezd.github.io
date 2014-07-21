@@ -1,6 +1,6 @@
 [Back](README.md)
 
-# Git and GitHub 
+# Git and GitHub
 
 ## Learning Competencies
 By the end of this lesson, you should be able to:
@@ -10,12 +10,12 @@ By the end of this lesson, you should be able to:
 - Explain what version control is and does
 
 
-## Releases 
+## Releases
 (i.e. directions - each release is necessary for the next release, so be sure to do everything in the order specified for all challenges)
 
 ### Release 0: Sign up for GitHub
 
-Have you signed up for [GitHub](http://www.github.com) yet? If not, [sign up here](http://www.github.com). Then follow [these instructions](https://help.github.com/articles/set-up-git) to install git and set up SSH keys. 
+Have you signed up for [GitHub](http://www.github.com) yet? If not, [sign up here](http://www.github.com). Then follow [these instructions](https://help.github.com/articles/set-up-git) to install git and set up SSH keys.
 
 #### A. Username
 
@@ -30,6 +30,7 @@ Go through the following resources to learn more about git and GitHub.
 
 - Read: [Version Control](http://skillcrush.com/2013/02/11/version-control/)
 - Do: [Try Git](https://try.github.io/) and/or [Git Immersion](http://gitimmersion.com/)
+   - A small note about the command `git init`, if you clone from github, you do not have to use git init. The .git folder that it creates is already created for you in the files you are bringing to your computer. `git init` should only be used if you are creating a git repo from scratch on your computer with the intention of pushing it up to github. Executing 'git init' multiple times can cause strange bugs to happen down the road!
 - Read Skillcrush's Git Series: [Git](http://skillcrush.com/2013/02/18/git/), [Getting Started with Git](http://skillcrush.com/2013/02/20/get-started-working-with-git/)
 - Video: [Git 3 Minute Primer](http://www.youtube.com/watch?v=_Jmkvv_nKTE)
 
@@ -41,11 +42,11 @@ Confused about the difference between git and GitHub? Try one of these articles:
 - [Is Git the same as GitHub?](http://www.jahya.net/blog/?2013-05-git-vs-github)
 
 ### Release 2: Reflection
-Reflecting is essential for solidifying your learning. You will be expected to complete a reflection for each challenge in Phase 0. It will help you learn how you learn, give opportunities for sharing resources, and help your instructors gauge your progress. Reflections are for you, but they will also be read by others, so make sure to write for an audience. 
+Reflecting is essential for solidifying your learning. You will be expected to complete a reflection for each challenge in Phase 0. It will help you learn how you learn, give opportunities for sharing resources, and help your instructors gauge your progress. Reflections are for you, but they will also be read by others, so make sure to write for an audience.
 
 **Writing reflections for each challenge is mandatory.**
 
-Before you can complete your reflection, you'll need to click the "Fork" button at the top right of this page. You will write all of your reflections, and most of your challenges (after weeks 1 and 2) in your unit-specific repositories. DO NOT move your reflections into your [USERNAME].github.io repository. These are separate. 
+Before you can complete your reflection, you'll need to click the "Fork" button at the top right of this page. You will write all of your reflections, and most of your challenges (after weeks 1 and 2) in your unit-specific repositories. DO NOT move your reflections into your [USERNAME].github.io repository. These are separate.
 
 ![Repo to Fork](../imgs/repo-to-fork.jpg)
 
@@ -54,12 +55,12 @@ This will make a copy of the unit 1 curriculum repository into your personal Git
 
 ![Forked Repo](../imgs/forked-repo.jpg)
 
-Reflect on your learning by editing the my_reflection.md file in the [1_get_started](./) folder (the folder you are in). You will be learning HTML this week, but these files have a `.md` extension. Do you know what that stands for? It stands for markdown, which is a text-to-HTML conversion tool.  If you would rather write in HTML, you can do that by changing the file extension from .md to .html. 
+Reflect on your learning by editing the my_reflection.md file in the [1_get_started](./) folder (the folder you are in). You will be learning HTML this week, but these files have a `.md` extension. Do you know what that stands for? It stands for markdown, which is a text-to-HTML conversion tool.  If you would rather write in HTML, you can do that by changing the file extension from .md to .html.
 
 You can complete the first 2 challenge reflections on github.com. Click on the my_reflection.md file in this folder. There should be a button to edit at the top. Click it. You'll add your reflection in markdown and write a commit message under "Commit changes". Once you type something there, you will want to click the "commit changes" button. **NOTE: It will not let you commit changes without a commit message.**
 
 ![Editing Reflection](../imgs/adding-reflection.jpg)
 
-After you learn how to edit files locally and sync/push your changes (in the third challenge), you'll want to edit all files on your local `phase-0-unit-1` repository--more on that later. 
+After you learn how to edit files locally and push your changes (in the third challenge), you'll want to edit all files on your local `phase-0-unit-1` repository--more on that later.
 
 

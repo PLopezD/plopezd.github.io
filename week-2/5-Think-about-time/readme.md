@@ -2,16 +2,15 @@
 
 # U1.W2: Thinking about Time
 
-
 ## Learning Competencies
-- Research time management, productivity
+- Research time management and productivity
 - Design a plan for getting work done during Phase 0
 - Explain "Time Boxing" and describe how to use it
 
 ## Summary
 Remote learning is challenging, especially if you prefer to learn with others. In this challenge you will do some research on time management, productivity, and mindfulness so you can design a plan for learning during Phase 0. 
 
-Try some of the articles below or find your own.  Try to read a bit outside your comfort zone though. Can you apply any of this to your situation?
+Try some of the articles below or find your own.  Try to read a bit outside your comfort zone. Can you apply any of this to your situation?
 
 ## Release 0: Research 
 Research Time Management, Productivity, and Mindfulness using a selection of the following (or other) resources. 
@@ -31,6 +30,7 @@ Research Time Management, Productivity, and Mindfulness using a selection of the
 - [Counter-intuitive productivity](http://paidtoexist.com/counterintuitive-productivity/)
 - [Tricks for Getting into the Zone](http://www.themuse.com/advice/the-best-tricks-for-getting-in-the-zone-at-work)
 - [Flow](http://en.wikipedia.org/wiki/Flow_(psychology))
+- [Timebox](http://guide.agilealliance.org/guide/timebox.html)
 
 
 ## Release 2: Reflect + Email

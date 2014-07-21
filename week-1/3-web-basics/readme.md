@@ -97,7 +97,7 @@ Now you will want to practice what you've learned in this challenge (and don't w
 
 In the GitHub app (or via your terminal), go to your [USERNAME]/phase-0-unit-1 repository (that you forked in challenge 1). Clone it to your computer. Then, open the terminal and navigate to that repository. Open the repository in Sublime. You can do this by either adding sublime shortcuts to your command line or opening sublime and opening the repository from there.
 
-Navigate to the 3_web_basics/my_reflection.md file. Answer the questions there. Save your file, commit your changes, and sync the repo. You should be able to see your reflection on your forked repo on github.com.
+Navigate to the 3_web_basics/my_reflection.md file. Answer the questions there. Save your file, commit your changes, and push the repo. You should be able to see your reflection on your forked repo on github.com.
 
 You should edit all code, reflections, etc. from your local text editor. It's bad practice to make changes from github.com. (So forget we told you to do that in the past two challenges)!
 
