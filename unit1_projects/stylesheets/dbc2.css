@@ -8,7 +8,13 @@
 	
 #header1 {   }
 
-#body{}
+#body{padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+	
+	
+}
 
 #sidebar { 
     width:500px;
