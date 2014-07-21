@@ -10,6 +10,8 @@ font-style: italic
 }
 
 #sidebar { 
+	position: relative;
+    margin-left: 500px;
     padding-top: 100px
     padding-bottom: 100px;
     padding-right: 50px;
