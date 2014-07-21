@@ -12,7 +12,7 @@ font-style: italic
 }
 
 #sidebar { 
-position:relative;
+position:absolute;
 	border-style: groove;
     border-color: #98bf21;
     padding-top: 150px
@@ -22,7 +22,7 @@ position:relative;
     width:300px;
     height:150px;
     background:#C0C0C0;
-    clear:both;}
+    clear:both}
 
 #footer { 
 	position:relative;
