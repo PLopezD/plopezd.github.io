@@ -27,6 +27,6 @@ a {
 .content {
     width: 1200px;
     word-wrap: break-word;
-    display:inline;
+    ul li {display:inline;}
     
 }
