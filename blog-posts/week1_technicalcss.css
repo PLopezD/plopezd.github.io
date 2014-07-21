@@ -8,8 +8,9 @@
  }
 ul {
     list-style-type: none;
-    margin: 25px;
-    padding: 25px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #80000
 }
 
 li {
