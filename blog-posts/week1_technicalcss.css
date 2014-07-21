@@ -12,12 +12,6 @@ ul {
     padding: 0;
     overflow: hidden;
 
-}
-
-li {
-    width: 300px;
-}
-
 a {
     width: 600px;
     background-color: #80000;
