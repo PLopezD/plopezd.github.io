@@ -2,8 +2,9 @@
   border-color: #dbdbdb;
    padding: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  margin: auto;
+  margin:50px 0px; 
+  padding:0px;
+	text-align:center;
  }
 button {
   padding: 0;
