@@ -8,14 +8,15 @@
 	
 #header1 {font-family: "Comic Sans";
 font-size: 40px;
-font-style: italics
+font-style: italic
 float:center;
 }
 
-#body{padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 50px;
-    padding-left: 50px;
+.center {
+    margin: auto;
+    width: 70%;
+    background-color: #00FF00;
+}
 	
 	
 }
