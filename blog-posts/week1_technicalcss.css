@@ -11,16 +11,14 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 600px;
+
 }
 
 li {
-    float: left;
-    width: 600px;
+    width: 300px;
 }
 
 a {
-
     width: 600px;
     background-color: #80000;
 }
