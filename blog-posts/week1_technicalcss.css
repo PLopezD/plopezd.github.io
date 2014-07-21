@@ -16,3 +16,6 @@ a {
     width: 600px;
     background-color: #80000;
 }
+li {
+    float: left;
+}
