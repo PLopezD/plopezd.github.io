@@ -8,12 +8,13 @@
  }
 
 .content {
-    width: 1200px;
+    width: 800px;
     word-wrap: break-word;
     display:inline;
-    
 }
-
+li {display:inline;
+    
+    width: 250px}
 
 #navigation li
 {
