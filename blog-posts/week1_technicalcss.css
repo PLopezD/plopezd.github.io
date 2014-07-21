@@ -7,14 +7,11 @@
 	text-align:center;
  }
 
-.content {
+.content li {
     width: 800px;
     word-wrap: break-word;
     display:inline;
 }
-li {display:inline;
-    
-    width: 250px}
 
 #navigation li
 {
