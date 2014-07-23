@@ -1,0 +1,22 @@
+body {
+    background-image: url("jackchi2.jpg");
+}
+
+#foot{
+	clear:both;
+   border:solid;
+   border-color:blue;
+   border-width:1px; 
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:20px;
+   width:100%;
+   background:#FEFEF2;
+   text-decoration: initial;
+   text-align: center
+
+}
+
+	
+}
