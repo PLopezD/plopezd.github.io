@@ -48,7 +48,7 @@ Realtime editing of HTML and CSS occur in the Elements tab.
 
 --The easiest thing to fix is making sure the same file is being pulled from the same URL. This can save 797B if corrected.
 
-![Alt text](../imgs/codeschool.png "Codeschool score")
+![Alt text](imgs/codeschool.png "Codeschool score")
 
 
 
