@@ -18,6 +18,9 @@ Everything in this challenge is within the context of the [website](../1_Get_Sta
 
 From this point forward, all work will happen within the `unit1_projects` folder.  All images should go in the `unit1_projects/images` folder and all css files should go in the `unit1_projects/stylesheets` folder.
 
+Your file structure should look like this:
+![](http://imgur.com/6PzJNRB.png)
+
 ## Release 1. Intro to HTML
 
 #### a. Learn (Please select one to use or mix and match!)
@@ -31,8 +34,9 @@ From this point forward, all work will happen within the `unit1_projects` folder
 * [Build a simple website](http://teamtreehouse.com/library/build-a-simple-website)
 * [Beginners guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
 * [HTML tag cheatsheat](http://skillcrush.com/wp-content/uploads/2012/06/HTML-Cheatsheet-Skillcrush.pdf)
+* [Teamtreehouse HTML Course - 14 Day Free Trial](http://teamtreehouse.com/library/html)
 
-What other resources can you find? Share them in the google+ community.
+Have more resources you want to share? Share them in the google+ community!
 
 #### b. Experiment
 Create a new html page in your repository called `dbc1.html`
@@ -61,7 +65,9 @@ Add the following to `dbc1.html` (Use this to introduce yourself - or fill it fu
 * [Hexidecimal color](http://skillcrush.com/2012/05/07/hexadecimal/)
 * [Classes vs IDs](http://skillcrush.com/2013/01/28/understanding-css-classes-vs-ids/)
 * [The Difference between IDs and Classes](http://css-tricks.com/the-difference-between-id-and-class/)
-
+* [SMACCS - CSS Design Thinking](https://smacss.com/book/categorizing)
+* [Intro to Chrome Dev Tools](http://www.html5rocks.com/en/tutorials/developertools/part1/)
+* [30 CSS Best Practices for Beginners](http://code.tutsplus.com/tutorials/30-css-best-practices-for-beginners--net-6741)
 
 #### b. Experiment
 Create a new css file in your repository called `dbc1.css` and save it to the `stylesheets/` directory.

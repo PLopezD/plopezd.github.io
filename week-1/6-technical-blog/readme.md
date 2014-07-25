@@ -30,7 +30,7 @@ Ask yourself:
 ## Release 2: Create your directory and file. 
 
 In your [USERNAME].github.io site, create a new directory called 'blog-posts'. You will put your template, and all of your blog posts in this directory. 
-Then, create a new HTML file in your [USERNAME].github.io website. Using the HTML skills you learned this week, create a blog template. What makes up a good blog form? 
+Then, create a new HTML file in your [USERNAME].github.io website. Using the HTML skills you learned this week, create a blog template called blog-template.html. What makes up a good blog form? 
 
 Then create a stylesheet.css sheet and link to it from the HTML file. Apply some CSS to your template to make it pretty. 
 

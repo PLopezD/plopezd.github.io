@@ -60,5 +60,5 @@ Commit and push your changes onto the phase-0-unit-1 repository.
 ## Release 6: Publish
 Using the terminal, practice copying the html and css sheets into a new folder in your [USERNAME]github.io site. Commit and push your changes to your github.io site. Double check that everything is displaying properly. Then add a link on the index of your site to make sure people can find it!
 
-## Release 6: Give Feedback
+## Release 7: Give Feedback
 Don't forget to give [feedback](https://socrates.devbootcamp.com/feedback/new) to your pair!
