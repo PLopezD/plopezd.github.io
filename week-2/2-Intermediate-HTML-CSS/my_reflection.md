@@ -15,5 +15,5 @@ Yes, it simplifies writing code. It almost makes it much easier to follow other 
 
 The reset.css allows us to shrink the size of certain documents which allows them to load faster and requires less resources. It allows us to be backwards compatible on many browsers as well.
 
-I use google chrome and windows explorer 9. On windows explorer typically things just take longer to load for whatever reason...
+I use google chrome and windows explorer 9. On windows explorer typically things just take longer to load for whatever reason.
 
