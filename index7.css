@@ -75,7 +75,10 @@ ul li ul li {
   color: #fff;
   
 }
+
 ul li ul li:hover { background: #666; }
+
+
 ul li:hover ul {
   visibility: visible;
 }
@@ -116,17 +119,14 @@ text-align:center;
 padding:
 
 }
-
-
-.blogposts{
-  
+.blogposts{ 
   width: 70%;
   height:500px;
   margin: 20px auto;
   overflow-y:auto;
   margin-top: 170px;
-
 }
+
 
 .post{
   border:solid 1px;
@@ -134,10 +134,10 @@ padding:
   width:auto;
   padding:20px;
   margin-top:7px;
-  background-color: white;
-  opacity:0.8;
-
+  background: rgba(255, 255, 255, .8);
 }
+
+
 
 .title{
   font-weight: bold;
