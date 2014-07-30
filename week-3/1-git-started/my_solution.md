@@ -28,7 +28,7 @@ shows you a log of all your commits
 allows you to join two (or more) deevelopment histories together
 
 #### pull
-lets you pull from a repository
+lets you pull data down from a repository
 
 #### push
 lets you push to the repository of your choice (you must enter username and pw)
