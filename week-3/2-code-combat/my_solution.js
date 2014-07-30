@@ -164,7 +164,7 @@ this.attackXY(54, 58);
 this.attackXY(55, 57);
 
 -This refers to the object being controlled. In javascript you typically would name your elements better than "this" so you can identify them easier.
-- () holds variables or inputs in javascript
+- () holds variables or if there is none then it refers to the object before the . in javascript
 - to break one line from another, similar to css
 
 
