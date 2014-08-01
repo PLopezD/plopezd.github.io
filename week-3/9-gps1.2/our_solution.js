@@ -1,22 +1,22 @@
 var actor1 = {
     name: "Adam Sandler",
     age: 47,
-    quote: "That's your home! Are you too good for your home?!"
-    gender: male
+    quote: "That's your home! Are you too good for your home?!",
+    gender: "male"
 }
 
 var actor2 = {
     name: "Kristen Bell",
     age: 33,
-    quote: "Do you wanna build a snowman?"
-    gender: female
+    quote: "Do you wanna build a snowman?",
+    gender: "female"
 }
 
 var actor3 = {
     name: "Jim Carrey",
     age: 53,
-    quote: "...So you're telling me there's a chance? YEAH!"
-    gender: male
+    quote: "...So you're telling me there's a chance? YEAH!",
+    gender: "male"
 }
 
 
@@ -27,13 +27,15 @@ function Client(name, age, quote, gender){
         this.gender = gender;
 }
     
-var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.");
+var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.", "male");
+var austinPowers = new Client("Austin Powers", 69, "Yeah Baby", "male");
+var barney = new Client("Barney", 5, "Hello friends!", "male");
 
 console.log(shooterMcGavin.constructor)
 console.log(shooterMcGavin.age)
 console.log(shooterMcGavin.quote)
     
-Actorlist = [actor3, actor2, actor1, shooterMcGavin]  
+Actorlist = [actor3, actor2, actor1, shooterMcGavin, austinPowers, barney]  
 
 console.log(Actorlist)
 
