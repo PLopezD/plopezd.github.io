@@ -4,6 +4,7 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.  
 
+<<<<<<< HEAD
 # I worked on this challenge [by myself ].
 
 # 1. Pseudocode
@@ -79,3 +80,23 @@ end
 # I also like that there seem to be many ways to get to the right answer in these examples.
 # That allows us to play around with different solutions to the problem. Looking forward 
 # to the next one. Left this feeling positive.
+=======
+# I worked on this challenge [by myself, with: ].
+
+# 1. Pseudocode
+
+# What is the input?
+# What is the output? (i.e. What should the code return?)
+# What are the steps needed to solve the problem?
+
+
+# 2. Initial Solution
+
+
+
+# 3. Refactored Solution
+
+
+
+# 4. Reflection 
+>>>>>>> baf172fcf73295276c5a63d692f58ac7b8450811
