@@ -27,3 +27,7 @@ describe 'get_grade' do
   end
   
 end
+
+
+    puts "Unit two group one is "+g21+"."
+    puts "Unit two group two is "+g22.join(" ,")+"."
