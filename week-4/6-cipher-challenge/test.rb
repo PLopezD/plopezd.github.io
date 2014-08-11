@@ -54,7 +54,7 @@ def north_korean_cipher(coded_message)
     o = cipher(variable)
     $pp = $pp << (o)
   end
-  
+      # Still trying to figure out why this doensn't work, it works on another test but when I copy and paste it here it fails..
 
             
             #input .. move it down the alphabet 4 spaces

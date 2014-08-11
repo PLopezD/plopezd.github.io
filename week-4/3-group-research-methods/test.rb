@@ -15,29 +15,27 @@ end
 
 # Identify and describe the ruby method you implemented. 
 # 
-#The array is using a .grep to return an array of patterns (in this case an arbitrary regexp) which is equivalent to 
-#the variable thing_to_find. In other wordes, the grep is taking anything that matches the "thing_to_find" and putting it into a new array.
-#The hash method takes the source (hash), and destructively culls the hash items that do not have values equivalent 
-#to the "thing_to_find" variable. It then calls the method ".keys" which returns the keys associated with the value in an array.
+#The array is using a .grep to return an array of patterns (in this case an arbitrary regexp) which is equivalent to the variable thing_to_find. In other wordes, the grep is taking anything that matches the "thing_to_find" and putting it into a new array.
+#The hash method takes the source (hash), and destructively culls the hash items that do not have values equivalent to the "thing_to_find" variable. It then calls the method ".keys" which returns the keys associated with the value in an array.
 
 # Person 2
 def my_array_modification_method(source, thing_to_modify)
-    newarray = []
-    source.each do |original|
-      if original.class == Fixnum
-        newarray << original+thing_to_modify
-      else  
-        newarray << original
-    end
-  end
-  return source.replace(newarray)
+  	newarray = []
+  	source.each do |original|
+  		if original.class == Fixnum
+				newarray << original+thing_to_modify
+			else	
+				newarray << original
+		end
+	end
+	return newarray
 end
 
 
 def my_hash_modification_method(source, thing_to_modify)
   source.each  {|key, value| 
-     newvalue = value + thing_to_modify 
-     source[key] = newvalue}
+  	 newvalue = value + thing_to_modify 
+  	 source[key] = newvalue}
   end
 
 # # Identify and describe the ruby method you implemented. 
@@ -48,14 +46,16 @@ def my_hash_modification_method(source, thing_to_modify)
 
 # Person 3
 def my_array_sorting_method(source)
-  new_array = source.map{|a| a.to_s} #originally had a problem where i couldnt compare string with an integer
+	new_array = source.map{|a| a.to_s} #originally had a problem where i couldnt compare string with an integer
   new_array.sort!{|x,y| x <=> y} #returns either -1,0,1
   new_array
 end
 
 def my_hash_sorting_method(source)
-  alphabatized_hash = source.sort_by {|key,value| key}
+	alphabatized_hash = source.sort_by {|key,value| key}
   age_hash = alphabatized_hash.sort_by {|key,value| value}
+  Hash[age_hash]
+  
 end
 
 # Identify and describe the ruby method you implemented. 
@@ -64,26 +64,22 @@ end
 
 # for the hash i used sort_by on the keys to alphabatize everything
 # i then used sort_by on the values to put the ages in ascending order
-
+# then i converted the array into a hash
 
 
 # Person 4
-
 def my_array_deletion_method(source, thing_to_delete)
-
-    source.each do |x|
-    if x.include?(thing_to_delete)
-        source.delete(x)
-    end
-  end
+  #Your code here!
 end
-
 
 def my_hash_deletion_method(source, thing_to_delete)
+  source.reject{|k,v| k == "thing_to_delete"}
 
-      newarray = source.reject{|k,v| k == thing_to_delete}
-
+  source.each  {|key, value| 
+  	 newvalue = value + 2
+  	 source[key] = newvalue}
 end
+
 # Identify and describe the ruby method you implemented. 
 # 
 #
@@ -105,8 +101,8 @@ p my_array_deletion_method(i_want_pets, "a") == ["I", 4, "pets", "but", "only", 
 p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie" => 5, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
 
 # Reflect!
-# This was a great project to work on with a group. Since we had a three person group we were forced to come together at the end to do the "person 4" task.
-# In doing so we found kinks in each others code as we worked through every persons work and we were able to better one another significantly.
-# We left this challenge feeling confident and having had fun working together. I look forward to my next group project.
+# 
+# 
+# 
 # 
 # 
