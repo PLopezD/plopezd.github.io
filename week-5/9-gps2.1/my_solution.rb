@@ -1,11 +1,6 @@
 # U2.W5: Bakery Challenge GPS
 
-# I worked on this challenge with: 
-
-
-
-
-
+# I worked on this challenge with: Shreya Patel
 
 # Our Refactored Solution
 
@@ -88,6 +83,10 @@ p bakery_num(41, "cake") == "You need to make 5 pie(s), 0 cake(s), and 1 cookie(
 
 
 #  Reflection 
-
+# This was a tough GPS. We were having issues finding ways to iterate over the data better. 
+# We can see that we are doing the same process over and over but we weren't sure how to solve
+# that. We plan on continuing to work through it until we are comfortable. We were pleased
+# with each others work styles and felt we did make some solid changes to the code other than
+# the gaping ones we still plan on fixing.
 
 

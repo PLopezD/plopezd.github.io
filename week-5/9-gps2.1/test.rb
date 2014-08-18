@@ -39,7 +39,6 @@ def bakery_num(num_of_people, fav_food)
             return "You need to make #{pie_qty} pie(s), #{cake_qty} cake(s), and #{cookie_qty} cookie(s)."
         end
       end
-end
 
 #-----------------------------------------------------------------------------------------------------
 #DRIVER TEST CODE-- DO NOT MODIFY ANYTHING BELOW THIS LINE (except in the section at the bottom)
