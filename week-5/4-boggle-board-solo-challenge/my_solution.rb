@@ -172,6 +172,8 @@ end
 # why i tried to add to my "column" array in the "get_col" function using << instead of .push it did not work. I kept getting
 # an error saying "no implicit conversion of Array to String". I will have to follow up on why that doesn't work as I feel it 
 # shows a basic lack of knowledge of elements. Otherwise this was a good project, left me feeling confident. 
-
+# The splat operator in the "Create_word" method lets you enter as many "Coords" as needed to pull together the word. Since this is a 2x2
+# this is why we are able to enter 4 coords after the "boggle_board" to find 4 letters, or three to find 3 letters if that is another
+# word we choose
 
 
