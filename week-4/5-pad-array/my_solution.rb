@@ -28,6 +28,7 @@
 
 # 2. Initial Solution
 
+<<<<<<< HEAD
 # class Array
 #   def pad(min, string=nil)
 #     rarray = self.clone
@@ -56,7 +57,19 @@
 #       end
 
 # end
+=======
+class Array
+>>>>>>> upstream/master
 
+  def pad
+    #code goes here
+  end
+
+  def pad!
+    #code goes here
+  end
+
+end
 
 
 # 3. Refactored Solution

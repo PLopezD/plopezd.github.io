@@ -21,10 +21,12 @@ Testing in this way is so fundamental to creating stable software, that many tes
 
 In this challenge, we're going to write our own simple `assert` method to get in the spirit of these testing frameworks.  This will take us one step closer to understanding Rspec (the code has been driving the red and greens of your exercises).  We'll also be flexing our muscles with blocks!
 
-## Release 0: Translate an assert into Pseudocode 
+You may also choose to watch [Shadi's lecture](https://www.youtube.com/watch?v=7wKEiWF4_qg&list=UUSHMypIB-U6hPrYxpREKmxw) on basic asserts and testing for more information.
+
+## Release 0: Translate an assert into Pseudocode
 Let's take a look at a basic `assert` method to help us test a block of code.  Take the code below and test it out in IRB or the terminal.
 
-```ruby 
+```ruby
 def assert
   raise "Assertion failed!" unless yield
 end
@@ -49,7 +51,7 @@ card_2 = CreditCard.new(4408041234567893)
 card_2.check_card == true
 ```
 
-Copy your favorite challenge so far into the `my_solution.rb` file in this directory. Then convert either the driver test code (or if you're adventurous, the RSpec) into assert statements. 
+Copy your favorite challenge so far into the `my_solution.rb` file in this directory. Then convert either the driver test code (or if you're adventurous, the RSpec) into assert statements.
 
 Practice using assert statements often this week in your challenges!
 

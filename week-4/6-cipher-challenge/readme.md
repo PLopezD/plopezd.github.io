@@ -19,19 +19,20 @@ In this challenge, you'll work with a pair to refactor some existing code to mak
 See what the expected output is.
 
 ## Release 1: Write tests 
-Use [driver test code](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/driver-code.md). What can you rely on? What can't you rely on? **Commit your changes.*
+Use [driver test code](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/driver-code.md). What can you rely on? What can't you rely on? 
 
 ## Release 2: Read the code
 Identify what each line of code is doing. It's located in the [my_solution.rb](my_solution.rb) file. 
 Write comments next to or above each line with an explanation.
-Really focus on breaking each step down. You want to understand every line. **Commit your changes.*
+Really focus on breaking each step down. You want to understand every line. 
+
+NOTE: You do not need to understand each part of lines 68 and 69. These lines use regular expressions that look for one or more of any digit. You don't have to refactor these two lines. 
 
 ## Release 3: [Refactor (by rewriting) the initial solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/refactoring.md)
   - Clean up the variable names. 
-  - The original code used a hard-coded hash to do the encryption. Can you create a simple algorithm instead? The original shift was by 4 characters. What would happen if it was changed to 10? **Commit your changes.*
+  - The original code used a hard-coded hash to do the encryption. Can you create a simple algorithm instead? The original shift was by 4 characters. What would happen if it was changed to 10? 
 
 ## Release 4: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md) 
-**Commit your changes.*
 
 ## Release 5: Push your changes 
 (Push your solution) to Github, then email your code to your accountability group.

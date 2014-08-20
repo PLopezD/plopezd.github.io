@@ -73,18 +73,21 @@ puts boggle_board[2][3] == "x" #=> should be false
 
 
 ## Release 0: [Pseudocode](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding_references/pseudocode.md)
-Write pseudocode for your `get_row` and `get_column` methods 
+Write pseudocode for your `get_row` and `get_column` methods. 
 
-## Release 1: [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding_references/initial_solution.md)
-Write the initial solution for each method
+## Release 1: [Driver Code](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/driver-code.md) 
+Call and test your methods.
 
-## Release 2: [Refactored Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding_references/refactoring.md)
+## Release 2: [Initial Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding_references/initial_solution.md)
+Write the initial solution for each method.
+
+## Release 3: [Refactored Solution](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding_references/refactoring.md)
 Refactor your initial solutions! 
 
-## Release 3: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
+## Release 4: [Reflect](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/reflection-guidelines.md)
 Along with your reflection describe what the splat operator in the 'create_word' method is doing.
 
-## Release 4: Push your solution to Github
+## Release 5: Push your solution to Github
 
 <!--## Release 5: [Review](https://github.com/Devbootcamp/phase-0-handbook/blob/master/coding-references/review.md) -->
 

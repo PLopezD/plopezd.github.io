@@ -21,16 +21,16 @@ Make sure to update the links to your old blog posts on the index of your site s
 Select one of the ruby methods below, do some research on it, and think of a scenario that could teach how to use this method. 
 
 #### Topics
-- `Enumerable#map` #DBCEM
-- `Enumerable#group_by` #DBCEG
-- `Enumerable#cycle` #DBCEC
+- `Enumerable#map` 
+- `Enumerable#group_by` 
+- `Enumerable#cycle` 
 
 ### Option 2: Research Questions
 Research one of the following questions/topics.
 
-- Arrays vs. Hashes. What are they? What are they good for? How do you know which one to use? (Teach others a strategy for deciding) #DBCAvH
-- Looping - Discuss the various ways to loop in Ruby. How can you decide which is best to use? (Teach others a strategy for deciding) #DBCLooping
-- Ruby vs. JavaScript - Discuss the benefits/drawbacks of each as you've experienced them. Explain to others how to decide which is better to use for what. #DBCRvJS
+- Arrays vs. Hashes. What are they? What are they good for? How do you know which one to use? (Teach others a strategy for deciding) 
+- Looping - Discuss the various ways to loop in Ruby. How can you decide which is best to use? (Teach others a strategy for deciding) 
+- Ruby vs. JavaScript - Discuss the benefits/drawbacks of each as you've experienced them. Explain to others how to decide which is better to use for what. 
 
 Also include examples of how to do the same thing in each. 
 
@@ -51,7 +51,7 @@ Make sure the index of your site is maintained as well! People should be able to
 
 Now it's time to show off your work and share your knowledge with your cohortmates using Twitter! 
 
-Tweet your blog post using the hashtags associated with each topic. 
+Tweet your blog post using the hashtag #DBCRuby 
 
 ## Release 5: Read
 

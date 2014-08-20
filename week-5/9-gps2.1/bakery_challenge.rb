@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+# U2.W5: The Bakery Challenge (GPS 2.1)
+
+# Your Names
+# 1)
+# 2)
+
+#You should not change this file. Please paste your solution into the my_solution.rb file.
+ 
+>>>>>>> upstream/master
 def bakery_num(num_of_people, fav_food)
 # Hash that defines how many people can be fed by each item
   my_list = {"pie" => 8, "cake" => 6, "cookie" => 1}
@@ -66,4 +77,10 @@ p bakery_num(130, "pie") == "You need to make 16 pie(s), 0 cake(s), and 2 cookie
 # p bakery_num(3, "apples") # this will raise an ArgumentError
 
 # You SHOULD change this driver test code. Why? Because it doesn't make sense.
+<<<<<<< HEAD
 p bakery_num(41, "cake") == "You need to make 5 pie(s), 0 cake(s), and 1 cookie(s)." # WHAAAAAT? I thought I said I wanted cake!
+=======
+p bakery_num(41, "cake") == "You need to make 5 pie(s), 0 cake(s), and 1 cookie(s)." # WHAAAAAT? I thought I said I wanted cake!
+ 
+ 
+>>>>>>> upstream/master

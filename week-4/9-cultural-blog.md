@@ -29,7 +29,7 @@ Make sure the index of your site is maintained as well! People should be able to
 
 Now it's time to show off your work and share your knowledge with your cohortmates using Twitter! 
 
-Tweet your blog post using #DBCProbs
+Tweet your blog post using #DBCTechProbs
 
 ## Release 6: Read
 

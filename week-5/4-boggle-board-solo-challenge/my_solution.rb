@@ -33,6 +33,7 @@ boggle_board = [["b", "r", "a", "e"],
 # 		@board = board
 #  	end
 
+<<<<<<< HEAD
 #  	def get_row(rownumber)
 #  		@board[rownumber]
 #  		@rownumber = rownumber
@@ -74,6 +75,8 @@ boggle_board = [["b", "r", "a", "e"],
 # p test.get_row(2) == ["e", "c", "l", "r"]
 # p test.get_row(3) == ["t", "a", "k", "e"]
 
+=======
+>>>>>>> upstream/master
 # Reflection 
 # This  portion was fairly straight forward. It annoyingly took me a 20 minute detour to realize i needed to call the "rownumber" using [] rather than ().
 # # Probably shouldn't be doing this stuff at 1am :\ sorta silly. I will have to clean up my driver tests. All in all,  a good confidence boost and a 
@@ -126,6 +129,7 @@ end
 # p test.get_col(3)
 
 
+#-------------------------------------------------------------------------------
 # DRIVER TESTS GO BELOW THIS LINE
 
 

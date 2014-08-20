@@ -10,7 +10,9 @@ Install and read a bit about [RSpec](http://code.tutsplus.com/tutorials/ruby-for
 
 This week you get a bit more choice on which challenges to do. If you want to go above and beyond, do all of them!
 
-We also highly recommend selecting a Ruby book from the [Phase 0 Handbook](https://github.com/Devbootcamp/phase-0-handbook/blob/master/resources.md) to reference as you go through these challenges. You'll want to have a good understanding of the Ruby language. We often recommend the *Well-Grounded Rubyist*, which does not have a free, online version, but the other books are great as well.
+We also highly recommend selecting a Ruby book from the [Phase 0 Handbook](https://github.com/Devbootcamp/phase-0-handbook/blob/master/resources.md) to reference as you go through these challenges. You'll want to have a good understanding of the Ruby language.
+
+We often recommend the *Well-Grounded Rubyist*, which is not free, but we have arranged a 45% off discount with [Manning Publications](http://www.manning.com/black3/) Use code `rubycl14`. **Please respect future students and Dev Bootcamp by not sharing this code or the ebook with others. This code is for Dev Bootcamp students only.**
 
 If you are using the *Well-Grounded Rubyist*, you'll want to look at Chapters 1, 2, 6, 7, 8, 9, 10. You don't need to read every chapter thoroughly, skim where you need to. Take more time with concepts you don't know.
 
