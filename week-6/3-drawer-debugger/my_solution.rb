@@ -60,6 +60,9 @@ end
 
 end
 
+
+
+# DO NOT MODIFY THE DRIVER CODE UNLESS DIRECTED TO DO SO
 knife1 = Silverware.new("knife")
 
 silverware_drawer = Drawer.new
@@ -79,18 +82,22 @@ silverware_drawer.view_contents
 
 removed_knife = silverware_drawer.remove_item(sharp_knife)
 removed_knife.eat
-removed_knife.clean_silverware 
+removed_knife.clean_silverware
+raise Exception.new("Your silverware is not actually clean!") unless removed_knife.clean_silverware == true
 
 silverware_drawer.view_contents
 silverware_drawer.dump
-silverware_drawer.view_contents #What should this return?
+raise Exception.new("Your drawer is not actually empty") unless silverware_drawer.contents.empty?
+silverware_drawer.view_contents
 
+# What will you need here in order to remove a spoon? You may modify the driver code for this error.
+raise Exception.new("You don't have a spoon to remove") unless silverware_drawer.contents.include?(spoon)
+silverware_drawer.remove_item(spoon) #What is happening when you run this the first time?
+spoon.eat
 
-fork = silverware_drawer.remove_item(fork) #add some puts statements to help you trace through the code...
-fork.eat
 
 #BONUS SECTION
-# puts fork.clean
+# puts spoon.clean
 
 # DRIVER TESTS GO BELOW THIS LINE
 
