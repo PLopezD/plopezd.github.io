@@ -1,7 +1,7 @@
 # U2.W6: Drawer Debugger
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge with Mark Hoyt.
 
 
 # 2. Original Code
@@ -11,35 +11,37 @@ class Drawer
 attr_reader :contents
 
 # Are there any more methods needed in this class?
-
-def initialize
-@contents = []
-@open = true
-end
-
-def open
-@open = true
-end
-
-def close
-@open = false
-end 
-
-def add_item
-@contents << item
-end
-
-def remove_item(item = @contents.pop) #what is `#pop` doing?
-@contents.delete(item)
-end
-
-def dump  # what should this method return?
-puts "Your drawer is empty."
-end
-
-def view_contents
-puts "The drawer contains:"
-@contents.each {|silverware| puts "- " + silverware.type }
+  
+  def initialize
+    @contents = []
+    @open = true
+  end
+  
+  def open
+    @open = true
+  end
+  
+  def close
+    @open = false
+  end 
+  
+  def add_item(item)
+    @contents << item
+  end
+  
+  def remove_item(item = @contents.pop) #what is `#pop` doing?
+    @contents.delete(item)
+  end
+  
+  def dump  # what should this method return?
+    @contents.clear
+    puts "Your drawer is empty."
+  end
+  
+  def view_contents
+    puts "The drawer contains:"
+  @contents.each {|silverware| puts "- " + silverware.type }
+  end
 end
 
 
@@ -48,22 +50,31 @@ attr_reader :type
 
 # Are there any more methods needed in this class?
 
-def initialize(type, clean = true)
-@type = type
-@clean = clean
-end
+  def initialize(type, clean = true)
+    @type = type
+    @clean = clean
+  end
 
-def eat
-puts "eating with the #{type}"
-@clean = false
-end
-
+  def eat
+    puts "eating with the #{type}"
+    @clean = false
+  end
+  
+  def clean_silverware
+    @clean = true
+  end
+  
+  def clean 
+    puts "So fresh and so clean clean"
+  end
+    
 end
 
 
 
 # DO NOT MODIFY THE DRIVER CODE UNLESS DIRECTED TO DO SO
 knife1 = Silverware.new("knife")
+spoon = Silverware.new("spoon")
 
 silverware_drawer = Drawer.new
 silverware_drawer.add_item(knife1) 
@@ -91,9 +102,14 @@ raise Exception.new("Your drawer is not actually empty") unless silverware_drawe
 silverware_drawer.view_contents
 
 # What will you need here in order to remove a spoon? You may modify the driver code for this error.
+silverware_drawer.add_item(spoon)
 raise Exception.new("You don't have a spoon to remove") unless silverware_drawer.contents.include?(spoon)
 silverware_drawer.remove_item(spoon) #What is happening when you run this the first time?
 spoon.eat
+silverware_drawer.add_item(knife1)
+silverware_drawer.view_contents
+silverware_drawer.dump
+
 
 
 #BONUS SECTION
@@ -101,9 +117,21 @@ spoon.eat
 
 # DRIVER TESTS GO BELOW THIS LINE
 
+def assert
+  raise "Assertion failed!" unless yield
+end
 
+assert {Drawer.instance_method(:add_item).arity == 1}
+assert {Drawer.instance_method(:dump).arity == 0}
 
-
+new_drawer = Drawer.new
+new_drawer.open == true
+new_drawer.close
+new_drawer.open == false
 
 
 # 5. Reflection 
+
+# This was a good project, I learned a lot about different errors we run into and how to adapt for them.
+# I also got some extra practice writing driver test codes and using assert statements.
+# No major questions arose from this, my partner and I worked through it well and left confident.
