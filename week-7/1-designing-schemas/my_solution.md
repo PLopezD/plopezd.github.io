@@ -5,18 +5,18 @@
 
 
 ## Release 0: Student Roster Schema
-![Alt text](release0.png "release 0")
+![Alt text](../imgs/release0.png "release 0")
 
 ## Release 1: One to Many Schema
-![Alt text](release1.png "release 1")
+![Alt text](../imgs/release1.png "release 1")
 
 
 ## Release 2: One to One Schema
-![Alt text](release2.png "release 2")
+![Alt text](../imgs/release2.png "release 2")
 
 
 ## Release 3: Many to Many Schema
-![Alt text](release3.png "release 3")
+![Alt text](../imgs/release3.png "release 3")
 
 
 ## Release 4: Design your own Schema
@@ -28,7 +28,7 @@ I also created a many to many connection between teams and sponsors. Teams typic
 
 <!-- display your one-to-one image inline here -->
 <!-- display your many-to-many image inline here -->
-![Alt text](release4.png "release 4")
+![Alt text](../imgs/release4.png "release 4")
 
 ## Release 5: Reflection
 This was a good introduction to schemas. I am excited to see how these can be used going forward. I want to solidify my knowledge of best practices in database defining. I feel it is key when starting any major database project that the database is defined properly and no excess/repetition is done. That will be an important skill going forward. All in all this project has left me feeling confident.
