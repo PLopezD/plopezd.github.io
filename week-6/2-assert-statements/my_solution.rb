@@ -113,8 +113,8 @@ california = VirusPredictor.new("California", STATE_DATA["California"][:populati
 alaska = VirusPredictor.new("Alaska", STATE_DATA["Alaska"][:population_density], STATE_DATA["Alaska"][:population], STATE_DATA["Alaska"][:region], STATE_DATA["Alaska"][:regional_spread]) 
 
 assert {VirusPredictor.instance_method(:virus_effects).arity == 0}
-
-assert {alabama.virus_effects !=  "Alabama will lose 482202 people in this outbreak and will spread across the state in 2 months."}
+#alabama.virus_effects
+assert {alabama.virus_effects === "Alabama will lose 482202 people in this outbreak and will spread across the state in 2 months."}
 
 assert {jersey.virus_effects != "New Jersey will lose 3545836 people in this outbreak and will spread across the state in 0.5 months."}
 
