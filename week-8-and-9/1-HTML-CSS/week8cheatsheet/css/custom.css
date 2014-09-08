@@ -1,0 +1,27 @@
+.jumbotron {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+code {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 10px;
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: nowrap;
+  background-color: black;
+
+}
+
+.terminal {
+	color: #5eff1f;
+
+}
+
+pre {
+background-color: red;
+color: green;
+margin: .5em 0;
+padding: .5em;
+}
+
