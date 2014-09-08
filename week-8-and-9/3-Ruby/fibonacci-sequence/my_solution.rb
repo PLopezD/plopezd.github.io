@@ -1,7 +1,7 @@
 # U3.W8-9: 
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge with  Abbie Tuckner
 
 # 2. Pseudocode
 # 3. Initial Solution
@@ -45,3 +45,4 @@ end
 # rspec in folder
 
 # 5. Reflection 
+# This was a good review of ruby basics, it was fun to do with a partner.

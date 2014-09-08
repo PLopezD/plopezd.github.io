@@ -1,7 +1,7 @@
 # U3.W8-9: Numbers to English Words
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge with Abbie Tuckner.
 
 # 2. Pseudocode
 
