@@ -1,24 +1,21 @@
 
 #head {
-	color:white;
-	font-family: 'Oswald', sans-serif;
+  color:white;
+  font-family: 'Oswald', sans-serif;
     background-color: lightblue;
-	text-align: center;
-	font-size: 2em;
-	color: black;
-	line-height:2;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  line-height:2;
   opacity: 0.8;
   
 }
 
 
 header{
-  position:fixed;
-  width:50%;
-  z-index: 1;
-width:80%;
-margin-left:10%
-
+  position:absolute;
+  width:60%;
+  margin-left:18%;
 }
 
 body {
@@ -30,7 +27,7 @@ body {
   padding: 20px;
   font-size: 13px;
   text-align: center;
-  
+  overflow-y:hidden;
 }
 
 
@@ -52,7 +49,7 @@ ul li {
   position: relative;
   padding: 10px 42px;
   background: lightblue;
-  transition: all 0.2s;
+ 
 }
 
 ul li:hover {
@@ -93,14 +90,14 @@ ul li:hover ul {
   visibility: visible;
 }
 #foot{
-	position:absolute;
-	font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	border-color:black;
-	border-style:solid;
-	left:10%;
-	right:10%;
-	width:80%;
-  margin:110px auto;
+  position:absolute;
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-color:black;
+  border-style:solid;
+  left:10%;
+  right:10%;
+  width:80%;
+  margin:70px auto;
 }
 
 
@@ -111,11 +108,11 @@ ul li:hover ul {
   color:white
 }
 a:hover{
-	color:coral
+  color:coral
 }
 
 ul li ul li a:link{
-	color:lightblue
+  color:lightblue
 }
 a:visited:{color:lightblue}
 
@@ -125,14 +122,15 @@ color:lightblue}
 .break{
 height:3%;
 text-align:center;
-padding:
+padding:10px
 
 }
 .blogposts{ 
-  width: 70%;
-  height:500px;
+  width: 80%;
+  height:450px;
   margin: 20px auto;
-  overflow-y:auto;
+  z-index:500;
+  overflow-y:scroll;
   margin-top: 170px;
 }
 
