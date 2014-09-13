@@ -158,6 +158,7 @@ print_total_votes
 print_separator
 print_votes_by_politician
 
+
 # REFLECTION- Include your reflection as a comment below.
 # How does the sqlite3 gem work?  What is the variable `$db` holding? 
 ## seems sqlite3 gem works but access the database through ruby commands, $db is the database
