@@ -11,47 +11,73 @@ I worked on this challenge [by myself, with:]
 
 */
 
-// var students = ["Joseph", "Susan", "William", "Elizabeth"]
+var students = ["Joseph", "Susan", "William", "Elizabeth"]
 
-// var scores = [ [80, 70, 70, 100],
-//                [85, 80, 90, 90],
-//                [75, 70, 80, 75],
-//                [100, 90, 95, 85] ]
-
-
-
-
+var scores = [ [80, 70, 70, 100],
+               [85, 80, 90, 90],
+               [75, 70, 80, 75],
+               [100, 90, 95, 85] ]
 
 
 // __________________________________________
 // Write your code below.
 
+function average(scores){
+  sum = scores.reduce(function(a, b) { return a + b });
+  avg = sum / scores.length;
+  return avg
+}
 
+// var gradebook = {
 
+//    Joseph: {testScores: scores[0]},
+//    Susan: {testScores: scores[1]},
+//    William: {testScores: scores[2],
+//    Elizabeth: {testScores: scores[3]}  
+// },
+//  addScore: function(student, score) {
+//      if (student = "Susan") {
+//        this.Susan.testScores.push(score)
+//      } else if (student = "Joseph") {
+//        this.Joseph.testScores.push(score)
+//  }else if (student = "Elizabeth") {
+//        this.Elizabeth.testScores.push(score)
+//  }else if (student = "William") {
+//        this.William.testScores.push(score)
+//  }else { console.log("That's not one of my students!")}
 
+//  // ^^^ this doesn't work
+// // this.Susan.testScores.push(score) < -- This works
 
+// },
+//  getAverage: function(name){
+//    average(this.name.testScores)
+//  }
+// }
 
 // __________________________________________
 // Refactored Solution
 
+function average(inputArray) {
+  sum = 0;
+  for (i=inputArray.length; i--;) { sum += inputArray[i]; }
+  return sum / inputArray.length;
+}
 
-
-
-
-
-
+gradebook = {}
+for (i=0; i<students.length; i++) {
+  gradebook[students[i]] = {}
+  gradebook[students[i]].testScores = scores[i];
+}
+gradebook.addScore = function(name, score) { this[name].testScores.push(score) };
+gradebook.getAverage = function(name) { return average(this[name].testScores) };
 
 // __________________________________________
 // Reflect
 
-
-
-
-
-
-
-
-
+// This was harder than I expected.. not how I wanted to end Phase 0. I couldn't get my loops to work at first,
+// then I couldn't get a variable entered to return a property of the variable. All my errors were syntatical ''
+// making this even more frustrating.
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
 

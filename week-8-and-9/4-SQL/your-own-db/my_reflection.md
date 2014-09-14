@@ -1,0 +1,1 @@
+This was a fun project all be it a bit tedious. It gave us a good chance to review databases before starting DBC on Monday. 
