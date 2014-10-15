@@ -57,7 +57,7 @@
   margin-top: 1%;
 }
 
-.btn-danger{ 
+.btn-danger{
   border-radius: 50px;
   width: 300px;
   padding: 1%;
@@ -71,26 +71,24 @@
   padding: 1%;
 }
 
-
 #buttons {
   text-align: center;
   margin-top: 1%;
   margin: 5%;
-
 }
+
 #wrapper {
   margin-top: 1%;
 }
 
 .game {
   position: relative;
-  padding-left:10px;
-  padding-right:10px 
+  padding-left:100px;
+  padding-right:100px 
 }
 
 .btn-default{
     position: relative;
-
 }
 
 .bounceInDown{
