@@ -9,7 +9,10 @@ Since you've likely been suffering some Ruby withdrawal in unit 1, we recommend 
 ### [Week 5: Ruby Classes](week-5)
 ### [Week 6: Object-Oriented Design](week-6)
 
-## Expectations for the Unit
+## Expectations for the 
+
+
+test
 
 - [Peer-Pair program](https://github.com/Devbootcamp/phase-0-handbook/blob/master/peer-pairing_sessions.md) **at least 6 times**. Read about [pairing](https://github.com/Devbootcamp/phase-0-handbook/blob/master/pairing-in-phase-0.md) before hand.
 - [Submit feedback](https://socrates.devbootcamp.com/feedback/new) for all pairing sessions. (You should submit 6 for peer sessions and 1 for [GPS 2.1](https://github.com/Devbootcamp/phase-0-handbook/blob/master/guided-pairing-sessions.md))
