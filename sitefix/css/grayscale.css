@@ -382,6 +382,6 @@ body {
 
 }
 
-.:link,{
+.blog-section:link,{
     color:#BA0C4F
 }
