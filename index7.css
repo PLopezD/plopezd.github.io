@@ -1,3 +1,60 @@
+
+.splash-title {
+	position: absolute;
+	margin-top: 83px;
+	margin-left: 6%;
+	padding-left: 0%;
+	z-index: 2;
+	padding: 0px;
+}
+
+.intro-body{
+
+}
+	@media (max-width: 991px) {
+	    .splash-title {
+	        margin-left:13%;
+	        margin-right:13%;
+	    }
+	}
+	@media (max-width: 917px) {
+	    .splash-title {
+	        margin-top:0%;
+	    }
+	}
+	@media (max-width: 767px) {
+	    .splash-title {
+			margin-left: 17%;
+			margin-right: 17%;
+			padding: 0px;
+	    }
+	    
+	}
+	@media (max-width: 466px) {
+	#custom-btn {
+	    	margin:0px;
+	    	margin:0px;
+	    }
+	    
+	    .intro-text{
+	    	margin:0px;	
+	    }
+	}
+
+
+
+
+
+
+
+
+
+video {
+	margin: 0px;
+	padding: 0px;
+  z-index: -1;
+}
+
 /*.brand-heading {
 	position:absolute;
 	top:0;

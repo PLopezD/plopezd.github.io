@@ -74,100 +74,100 @@
     	<!-- Intro Header -->
     	<header class="intro">
     		<div class="intro-body">
-    			<video class="vid" loop="loop" preload="auto"  id='videoplayer' autoplay muted>
-    				<source src="testvid.mp4" type="video/mp4">
-    				</video>
-                    <div class="container">
+                    <div class="container splash-title">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
-                                <h1 class="brand-heading">Uncommon Camels</h1>
-                                <p class="intro-text">A journey into blogging</p>
-                                <a href="#about" class="btn btn-circle page-scroll">
-                                    <i class="fa fa-angle-double-down animated"></i>
-                                </a>
+    				<h1 class="brand-heading">Uncommon Camels</h1>
+                    <p class="intro-text">A journey into blogging</p>
+                    <a href="#about" class="btn btn-circle page-scroll" id="custom-btn">
+                        <i class="fa fa-angle-double-down animated"></i>
+    				</a>
                             </div>
                         </div>
                     </div>
+                <video class="vid" loop="loop" preload="auto"  id='videoplayer' autoplay muted>
+                    <source src="testvid.mp4" type="video/mp4">
+                    </video>
                 </div>
             </header>
 
             <!-- About Section -->
             <section id="about" class="container content-section text-center">
-               <div class="row">
+             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                 <h2>About Camels</h2>
-                 <p>Camels are mythical animals from a far off land. The Uncommons are things that do things... filler filler filler.. very important.. powerful.. moving.. stuff.
-                 </div>
+                   <h2>About Camels</h2>
+                   <p>Camels are mythical animals from a far off land. The Uncommons are things that do things... filler filler filler.. very important.. powerful.. moving.. stuff.
+                   </div>
 
-             </div>
+               </div>
 
-         </section>
+           </section>
 
-         <!-- Download Section -->
-         <section id="blog" class="content-section text-center">
+           <!-- Download Section -->
+           <section id="blog" class="content-section text-center">
             <div class="blog-section">
-             <div class="container">
-              <div class="col-lg-10 col-lg-offset-1">
-               <p id ="thequickscrape"></p>
-               <h2>Blog</h2>
-               <h3>The Quick Scrape</h3> 
-               <p>Nokogiri is a ruby gem used for quickly scraping sites. We can use this tool to quickly seed databases for practice projects to make them seem slighly more real. The goal of this post is to quickly and easily allow you to scrape a page for most information. The example I am giving involves getting all the categories on the <a class="workplease" href='http://newyork.craigslist.org/'>Craigslist</a> homepage which fortunately fall in a ".txt" class. 
-                The first step is installing the nokogiri gem which is easy enough by entering the following into the command line.
-                <br>
-                <code>gem install nokogiri</code>
-                <br>
-                After that you need to download the entire homepage you will use. The easiest way to do this is right clicking on the link to any site and scrolling down to Save As. <br>
-                <img src="blog-posts/quickscrape/htmldownload.png" alt="download html example"><br>
-                This will download all the CSS and Javascript of a site as well which may be valuable in other instances but for this purpose you can just delete the folder that comes with the save. All we need is the .html file.
-                Save the html locally as something like <code> clisthomepage.html </code>.
-                <br>
-                Next, in your ruby file require nokogiri by typing.<br>
-                <code> require 'nokogiri' </code>
-                <br>
-                Then define the doc we will scrape using the following command.
-                <br>
-                <code>doc = Nokogiri::HTML(File.open('clisthomepage.html')) </code>
-                <br>
-                Now we can start manipulating the document. Since I want to get the categories out of it I will define a category array.
-                <br>
-                <code>category_array = []</code>
-                <br>
-                Then using the doc search command I will find all the .txt class items and pump their .inner_text into my new array.<br>
-                <code>doc.search('.txt').map { |text|  category_array.push(text.inner_text)} </code>
-                <br>
-                All set, I now have a category_array with 207 category strings I can use to seed my database. 
-                Good luck out there.
+               <div class="container">
+                  <div class="col-lg-10 col-lg-offset-1">
+                     <p id ="thequickscrape"></p>
+                     <h2>Blog</h2>
+                     <h3>The Quick Scrape</h3> 
+                     <p>Nokogiri is a ruby gem used for quickly scraping sites. We can use this tool to quickly seed databases for practice projects to make them seem slighly more real. The goal of this post is to quickly and easily allow you to scrape a page for most information. The example I am giving involves getting all the categories on the <a class="workplease" href='http://newyork.craigslist.org/'>Craigslist</a> homepage which fortunately fall in a ".txt" class. 
+                        The first step is installing the nokogiri gem which is easy enough by entering the following into the command line.
+                        <br>
+                        <code>gem install nokogiri</code>
+                        <br>
+                        After that you need to download the entire homepage you will use. The easiest way to do this is right clicking on the link to any site and scrolling down to Save As. <br>
+                        <img src="blog-posts/quickscrape/htmldownload.png" alt="download html example"><br>
+                        This will download all the CSS and Javascript of a site as well which may be valuable in other instances but for this purpose you can just delete the folder that comes with the save. All we need is the .html file.
+                        Save the html locally as something like <code> clisthomepage.html </code>.
+                        <br>
+                        Next, in your ruby file require nokogiri by typing.<br>
+                        <code> require 'nokogiri' </code>
+                        <br>
+                        Then define the doc we will scrape using the following command.
+                        <br>
+                        <code>doc = Nokogiri::HTML(File.open('clisthomepage.html')) </code>
+                        <br>
+                        Now we can start manipulating the document. Since I want to get the categories out of it I will define a category array.
+                        <br>
+                        <code>category_array = []</code>
+                        <br>
+                        Then using the doc search command I will find all the .txt class items and pump their .inner_text into my new array.<br>
+                        <code>doc.search('.txt').map { |text|  category_array.push(text.inner_text)} </code>
+                        <br>
+                        All set, I now have a category_array with 207 category strings I can use to seed my database. 
+                        Good luck out there.
 
-            </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2">
+              <h2>Contact Camels</h2>
+              <p>Feel free to email camels.</p>
+              <p><a href="mailto:pldomowicz@gmail.com">pldomowicz@gmail.com</a>
+              </p>
+              <ul class="list-inline banner-social-buttons">
+                 <li>
+                    <a href="https://twitter.com/squirrelhurl" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                </li>
+                <li>
+                    <a href="https://github.com/plopezd" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/u/1/115662398489827070827/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/pablo.lopezdomowicz" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                </li>
+            </ul>
         </div>
     </div>
-</div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="container content-section text-center">
-    <div class="row">
-     <div class="col-lg-8 col-lg-offset-2">
-      <h2>Contact Camels</h2>
-      <p>Feel free to email camels.</p>
-      <p><a href="mailto:pldomowicz@gmail.com">pldomowicz@gmail.com</a>
-      </p>
-      <ul class="list-inline banner-social-buttons">
-       <li>
-        <a href="https://twitter.com/squirrelhurl" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-    </li>
-    <li>
-        <a href="https://github.com/plopezd" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-    </li>
-    <li>
-        <a href="https://plus.google.com/u/1/115662398489827070827/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-    </li>
-    <li>
-        <a href="https://www.facebook.com/pablo.lopezdomowicz" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-    </li>
-</ul>
-</div>
-</div>
 </section>
 
 <!-- Map Section -->
@@ -175,8 +175,8 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center">
-     <p>Copyright &copy; Camels 2014</p>
- </div>
+       <p>Copyright &copy; Camels 2014</p>
+   </div>
 </footer>
 
 <!-- jQuery Version 1.11.0 -->
