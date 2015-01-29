@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "http://kradof.com/PLD_contact_me.php",
+                url: "././sitefix/mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -29,7 +29,7 @@ $(function() {
                 cache: false,
                 success: function(e) {
                     // Success message
-                    
+                    console.info("success route")
                     console.info(e)
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -42,8 +42,10 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() {
+                error: function(e) {
                     // Fail message
+                    console.info("error route")
+                    console.info(e)
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
