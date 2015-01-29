@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././sitefix/mail/contact_me.php",
+                url: "http://kradof.com/PLD_contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -27,8 +27,10 @@ $(function() {
                     message: message
                 },
                 cache: false,
-                success: function() {
+                success: function(e) {
                     // Success message
+                    
+                    console.info(e)
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
