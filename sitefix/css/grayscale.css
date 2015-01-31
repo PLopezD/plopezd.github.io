@@ -138,8 +138,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    /*color: #fff;*/
-    color: #fff;
+    color: #7A217F;
     /*background: url(../img/chi.jpg) no-repeat bottom center scroll;*/
     background-color: #000;
     -webkit-background-size: cover;
@@ -184,8 +183,10 @@ a:focus {
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 35px;
+    border-color: #7A217F;
     font-size: 40px;
-    color: #fff;
+    color: #7A217F;
+    /*color: #fff;*/
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
