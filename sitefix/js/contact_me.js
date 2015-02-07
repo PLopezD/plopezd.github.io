@@ -18,7 +18,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "/sitefix/mail/contact_me.php",
+                // url: "/sitefix/mail/contact_me.php",
+                url: "http://kradof.com/mail/pld_contact_me.php",
                 // url: "././sitefix/mail/contact_me.php",
                 type: "POST",
                 data: {
