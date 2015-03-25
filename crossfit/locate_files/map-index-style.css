@@ -1,0 +1,84 @@
+html{
+	height: 100%;
+}
+
+body{
+	background: url('../img/crossfit-logo.png')#fff top right no-repeat;
+	font: 14px/18px Arial,Helvetica,sans-serif;
+	color: #453536;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+
+img{
+	border:none;
+}
+
+#map-intro{
+	background-color: transparent;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px 20px 20px;
+	width: 50%;
+	float: left;
+}
+
+#map-footer{
+	clear:both;
+	padding:20px;
+}
+
+p{
+	line-height: 20px;
+}
+
+p.lingo{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+h2{
+	margin: 25px 0 0 0;
+	font-weight: bold;
+	line-height: 8px;
+}
+
+h2.first-h{
+	margin-top: 0;
+}
+
+h2#bottom-h{
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+a, a:visited, a:link, li a.active {
+    color: #971B2F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ui-autocomplete {
+    background-color: white;
+    width: 300px;
+    border: 1px solid #cfcfcf;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+input#address{
+	width: 300px;
+	margin-left: 10px;
+}
+
+ul{
+	padding-left: 20px;
+}
+
+li{
+	margin-bottom: 8px;
+}
