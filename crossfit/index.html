@@ -1,11 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="crossfit example site">
+    <meta name="author" content="Pablo Lopez Domowicz">
 
-<body>
-	<iframe
-	width="600"
-	height="450"
-	frameborder="0" style="border:0"
-	src="https://www.google.com/maps/embed/v1/search
-	?key=AIzaSyCCc02vRzDABkz3V6clgK6qy1qLuLUPYC4
-	&q=record+stores+in+Seattle&output=embed">
-</iframe>
-</body>
+    <title>Crossfit</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="css/agency.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="page-top" class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.jpg" class="img-responsive img-square" alt=""></a>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#portfolio">About</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#start">Start Now!</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>  
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"></div>
+                <div class="intro-heading">Crossfit</div>
+                <a href="#portfolio" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal" style="border-radius=0px">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/info6.jpg" class="img-responsive portfolio-image" style="border-radius=0px" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>FORGING ELITE FITNESS</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/edu.jpg" class="img-responsive portfolio-image" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>EDUCATION</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal" style="border-radius=0px">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/train.jpg" class="img-responsive portfolio-image" style="border-radius=0px" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>FORGING ELITE FITNESS</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gym.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>AFFILIATE GYMS</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/info4.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>THE CROSSFIT GAMES</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/info7.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>CROSSFIT THEORY</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="start">
+        <!-- attempt to use google maps api in short time frame -->
+        <!-- <div id="map-canvas">
+                    </div> -->
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Start Now!</h2>
+                    <h3 class="section-subheading text-bold" style='margin:0px'>Enter your zip</h3>
+                    <form id="zip" >
+                        <input class="section-heading "></input>
+                        <br>
+                        <br>
+                        <button type="submit" class="btn btn-small">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="map-canvas">
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+                <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Start Now!</h2>
+
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3449.296365870028!2d-97.786915!3d30.17152700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865b4ccd0b6c5797%3A0x1050242fcfff504a!2sCrossfit+Austin!5e0!3m2!1sen!2sus!4v1427324284542" width="600" height="450" frameborder="0" style="border:0"></iframe>
+    </div>
+    </div>
+    </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-bold">We can't wait to make your life better.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Name:</label>
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email:</label>
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone Number:</label>
+                                    <input type="phone" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Message:</label>
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Crossfit 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+
+                        <li><a href="https://www.linkedin.com/pub/pablo-lopez-domowicz/17/20/829" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>Contact Us</li>
+                        <li><a href="https://www.google.com/maps/place/3140+Raymond+Ave,+Brookfield,+IL+60513/@41.833264,-87.8557469,17z/data=!3m1!4b1!4m2!3m1!1s0x880e4a09cf781efb:0x11e7d5284fcc52f" target="_blank">2016 N Howe Street Suite 100 Chicago</a></li>
+                        <li>(708) 275-6878</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Forging elite fitness</h2>
+                            <p>CrossFit begins with a <a href="http://www.youtube.com/watch?v=E6yR3kikADc&t=2m41s" target="_blank">belief in fitness</a>. The aim of CrossFit is to forge a broad, general and inclusive fitness. We have sought to build a program that will best prepare trainees for any physical contingency — not only for the unknown, but for the unknowable. After looking at all sport and physical tasks collectively, we asked what physical skills and adaptations would most universally lend themselves to performance advantage. Capacity culled from the intersection of all sports demands would quite logically lend itself well to all sport. In sum, our specialty is not specializing.</p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mlVrkiCoKkg" frameborder="0" allowfullscreen></iframe>
+                            <p>CrossFit is many things. Primarily, it’s a fitness regimen developed by Coach Greg Glassman over several decades. He was the first person in history to define fitness in a meaningful, measurable way (increased work capacity across broad time and modal domains). CrossFit itself is defined as that which optimizes fitness (constantly varied functional movements performed at relatively high intensity). CrossFit is also the community that spontaneously arises when people do these workouts together. In fact, the communal aspect of CrossFit is a key component of why it’s so effective.&nbsp;<br>
+                                <br>
+                                Today, CrossFit, the company, provides <a href="http://www.crossfit.com/cf-info/certs.shtml" target="_blank">accredited training seminars</a> throughout the world. We publish several websites providing extensive free content, including <a href="http://crossfit.com/" target="_blank">workouts</a>, training and support for becoming fit, as well as a growing <a href="http://journal.crossfit.com/" target="_blank">Journal</a> of extended instruction. We have a worldwide network of more than 11,000 affiliated gyms and more than 100,000 accredited CrossFit Level 1 trainers. And, we have created the Sport of Fitness, known as the <a href="http://games.crossfit.com/" target="_blank">CrossFit Games</a>, where we crown the Fittest Man and Woman on Earth.<br>
+                                <br>
+                                In 2003, we started a “new” blog that would spur a revolution in the fitness industry. The contents were simple: the date, a picture, the Workout of the Day (WOD), and usually some provocative nugget of information. Check out our first full month of posts back in <a href="http://www.crossfit.com/mt-archive2/2003_05.html" target="_blank">May 2003</a>.<br>
+                                <br>
+                                Anyone with an Internet connection and the willingness, curiosity and bravery to try it, could. From this simple blog and a single gym in Santa Cruz, Calif., there sprung an immense community of fitness enthusiasts who have learned the movements, tested the theory and accumulated a huge amount of data supporting Glassman’s equation:<br>
+                                <br>
+                                CVFM @ HI + Communal Environment = Health<br>
+                                <br>
+                                A regimen of <a href="http://games.crossfit.com/video/crossfit-whiteboard-constantly-varied" target="_self">constantly varied (CV)</a>, <a href="http://games.crossfit.com/video/crossfit-whiteboard-functional-movement" target="_self">functional movements (FM)</a> performed at <a href="http://games.crossfit.com/video/crossfit-whiteboard-high-intensity" target="_self">high intensity (@HI)</a> in a communal environment leads to health and fitness.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>EDUCATION</h2>
+                                <p>CrossFit is not easy and it’s not simple. To be fit and physically competent to handle all of the challenges in life is no small endeavor. As you work to become a fitter and healthier person, you will need to learn about:</p>
+                                <ul class="modallist">
+                                    <li>
+                                        <a href="http://www.crossfit.com/cf-info/excercise.html" target="_blank">Movement</a> - How to move safely and effectively.</li>
+                                        <li>
+                                            <a href="http://journal.crossfit.com/2007/04/understanding-crossfit-by-greg.tpl" target="_blank">Fitness</a> - What it means to be fit. Its definition, the supporting theories, and how to go about attaining it in real life.</li>
+                                            <li>
+                                                <a href="http://journal.crossfit.com/nutrition/" target="_blank">Nutrition</a> - Eat meat &amp; vegetables, nuts &amp; seeds, some fruit, little starch, and no sugar. Keep intake to levels that will support exercise, but not body fat.</li>
+                                            </ul>
+                                            <p><br>
+                                                Education is a big part of CrossFit. When you start, you are not expected to have the knowledge you need.<br>
+                                                <br>
+                                                CrossFit is an education about movement, fitness, nutrition and community. All of these things require responsibility, common sense, and work to educate oneself using all the tools available in the community.<br>
+                                                &nbsp;</p>
+                                                <p>Get started by reading <a href="http://games.crossfit.com/recommended-introductory-content">recommended introductory content</a>.</p>
+                                                <p>&nbsp;</p>
+
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Modal 3 -->
+                        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-content">
+                                <div class="close-modal" data-dismiss="modal">
+                                    <div class="lr">
+                                        <div class="rl">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-8 col-lg-offset-2">
+                                            <div class="modal-body">
+                                                <h2>TRAINING SEMINARS</h2>
+                                                <br>
+                                                <p>In addition to websites and gyms, CrossFit offers training seminars.</p>
+                                                <p><a href="http://www.crossfit.com/cf-info/certs.shtml">The CrossFit Level 1 Trainer Course</a> is an ANSI accredited Certificate Course. The Level 1 introduces students to CrossFit's methodology and foundational movements. Level 1 courses are offered at CrossFit Affiliates around the world, and are a required first step for those that want to be CrossFit trainers. To earn the designation of "CrossFit Level 1 Trainer," individuals must attend the course and pass the test. Find a <a href="http://trainerdirectory.crossfit.com/">qualified CrossFit Trainer near you</a>.</p>
+                                                <p>The <a href="http://www.crossfit.com/cf-info/certs.shtml">CrossFit Coach's Prep Course</a> is an intermediate level seminar, building on the concepts and movements introduced at the Level 1 Trainer Course. Students will primarily enhance their abilities to coach others, while further developing their understanding of the CrossFit methodology and program design &amp; implementation.</p>
+                                                <p>CrossFit also offers many specialty seminars, including:</p>
+                                                <a href="http://www.crossfit.com/cf-info/certs.shtml">Kids</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#0">Defense</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#1">Endurance</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#2">Football</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#3">Goal Setting</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#4">Gymnastics</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#5">Kettlebell</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#6">Mobility</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#7">Olympic Lifting</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#8">Powerlifting</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#9">Rowing</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#10">Striking</a><br>
+                                                <a href="http://www.crossfit.com/cf-info/specialty_certs.html#11">Strongman</a><br>
+                                                <br>
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-content">
+                                <div class="close-modal" data-dismiss="modal">
+                                    <div class="lr">
+                                        <div class="rl">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-8 col-lg-offset-2">
+                                            <div class="modal-body">
+                                                <h2>AFFILIATE GYMS</h2>
+                                                <p>CrossFit is also a community of more than 4,500 gyms worldwide. Those are all local, small businesses that share the philosophies of CrossFit and legally license the CrossFit name. Moving well is hard to do, and the best way to accomplish good movement is with a competent coach who teaches functional movements and whose style and personality complements yours. The affiliates have different styles and different cultures. What they have in common is a commitment to:</p>
+                                                <ul class="modallist">
+                                                    <li>Excellence</li>
+                                                    <li>Improving human movement</li>
+                                                    <li>Building community</li>
+                                                </ul>
+                                                <p>Each affiliate is different, and you should ask a lot of questions to make sure the affiliate you work with is a good fit for you. There are great coaches that aren’t a great fit for everyone.</p>
+                                                <img src="img/find.png" >
+                                                <p><a href="http://games.crossfit.com/what-is-crossfit/find-an-affiliate-map">Click here</a>&nbsp;to find an affiliate near you.</p>
+
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-content">
+                                <div class="close-modal" data-dismiss="modal">
+                                    <div class="lr">
+                                        <div class="rl">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-8 col-lg-offset-2">
+                                            <div class="modal-body">
+                                                <h2>CROSSFIT GAMES</h2>
+                                                <br>
+                                                <p>Who is the fittest? How do you know? Since 2007, the <a href="http://games.crossfit.com/" target="_blank">CrossFit Games</a> have <a href="http://games.crossfit.com/about-the-games/history">evolved</a> to answer these questions. The CrossFit Games is the world’s premier test to find the Fittest on Earth.&nbsp;<br>
+                                                    <br>
+                                                    The CrossFit Games Season has <a href="http://games.crossfit.com/about-the-games/the-games-season">three stages</a>: the Open, the Regional competitions, and the Games.<br>
+                                                    <br>
+                                                    First, the online Open invites anyone in the world to prove their fitness. This is the world’s most inclusive sporting event. In March and April of 2014, more than 138,000 people worldwide competed in five workouts over five weeks.&nbsp;<br>
+                                                    <br>
+                                                    Second, the top athletes from each region advanced to live competition. In 17 Regional competitions, 1,500 men and women competed for fewer than 100 berths to the finals. Only the very best would advance to the final stage, the CrossFit Games, which takes place each summer in Los Angeles, Calif.<br>
+                                                    <br><a href="./aboutxfit_files/Games2012_whatis_Games1.jpg" target="_blank"><img src="img/games.jpg" alt="Games" style="margin-left: 10px; float:right; width: 250px;"></a>
+                                                    The Games change every year, and the details are often not announced until right before each event. Athletes train year-round for a competition that is almost completely a mystery. When they reach the StubHub Center, they put their training and mental fortitude to the test and take on a rigorous, broad-ranging test of overall physical capacity. At the end of the Games, the Fittest on Earth have clearly distinguished themselves.<br>
+                                                    <br>
+                                                    The 2014 Reebok CrossFit Games Season begins in February. To compete, register on the <a href="http://games.crossfit.com/">Games Site</a>. Full details and registration dates will be available in early 2013.</p>
+                                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-content">
+                                    <div class="close-modal" data-dismiss="modal">
+                                        <div class="lr">
+                                            <div class="rl">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-8 col-lg-offset-2">
+                                                <div class="modal-body">
+                                                    <!-- Project Details Go Here -->
+                                                    <h2>CROSSFIT THEORY</h2>
+                                                    <p>CrossFit is an <a href="http://journal.crossfit.com/2007/12/evidencebased-fitness-by-greg.tpl" target="_blank">evidence-based</a> fitness program. Meaningful statements about safety, efficacy and efficiency<span style="font-size: 13px; ">&nbsp;—&nbsp;</span>the three most important and interdependent facets of any fitness program<span style="font-size: 13px; ">&nbsp;—&nbsp;</span>can be supported only by measurable, observable, and repeatable facts, (i.e., data). The CrossFit methodology depends on full disclosure of methods, <a href="http://journal.crossfit.com/2010/06/glassman-real-science.tpl" target="_blank">results and criticisms</a>, and we’ve employed the Internet as our primary means to support these values. Our charter is <a href="http://www.cluetrain.com/" target="_blank">open source</a>, making co-developers out of participating coaches, athletes and trainers through a spontaneous and collaborative online community. CrossFit is empirically driven, clinically tested and community developed.<br>
+                                                        <br>
+                                                        We offer the world's most useful <a href="http://journal.crossfit.com/2002/10/what-is-fitness-by-greg-glassm.tpl" target="_blank">definition of fitness</a>: increased work capacity across broad time and modal domains. Capacity is the ability to do real work, which is measurable using the basic terms of physics (force, distance and time). Life is unpredictable (much more so than sport) so real world fitness must be broad and not specialized, both in terms of duration and type of effort (time and modal domains).<br>
+                                                        <br><a href="./aboutxfit_files/TheorySide.jpg" target="_blank"><img src="img/theory.jpg" alt="Games" style="margin-right: 10px; float:left; width: 250px;"></a>
+                                                        The magic is in the movements. All of CrossFit’s workouts are based on functional movements. These are the core movements of life, found everywhere, and built naturally into our DNA. They move the largest loads the longest distances so they are ideal for maximizing the amount of work done in the shortest time (intensity).<br>
+                                                        <br>
+                                                        By employing a constantly-varied approach to training, these functional movements at maximum intensity (relative to the physical and psychological tolerances of the participant), lead to dramatic gains in fitness. Intensity is essential for results and is measurable as work/time. The more work you do in less time, the more intense the effort.<br>
+                                                        <br>
+                                                        In implementation, CrossFit is, quite simply, the “sport of fitness.” We’ve learned that harnessing the natural camaraderie, competition and fun of sport or game yields an intensity that cannot be matched by other means. The late Col. Jeff Cooper observed, “the fear of sporting failure is worse than the fear of death.” It is our observation that men will die for points. Using whiteboards as scoreboards, keeping accurate scores and records, running a clock, and precisely defining the rules and standards for performance, we not only motivate unprecedented output, but derive both relative and absolute metrics at every workout. This data has important value well beyond motivation.<br>
+                                                        <br>
+                                                        While it challenges the world’s fittest, the CrossFit program is designed for universal scalability, making it the perfect application for any committed individual, regardless of experience. We’ve used our same routines for elderly individuals with heart disease and cage fighters one month out from televised bouts. We scale load and intensity; we don’t change programs.<br>
+                                                        <br>
+                                                        The needs of Olympic athletes and our grandparents differ by degree, not kind. Our hunters, skiers, mountain bike riders and housewives have found their best fitness from the same regimen.</p>
+                                                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- jQuery Version 1.11.0 -->
+                                <script src="js/jquery-1.11.0.js"></script>
+
+                                <!-- Bootstrap Core JavaScript -->
+                                <script src="js/bootstrap.min.js"></script>
+
+                                <!-- Plugin JavaScript -->
+                                <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+                                <script src="js/classie.js"></script>
+                                <script src="js/cbpAnimatedHeader.js"></script>
+
+                                <!-- Contact Form JavaScript -->
+                                <script src="js/jqBootstrapValidation.js"></script>
+                                <script src="js/contact_me.js"></script>
+
+                                <!-- Google Maps API -->
+                                <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+
+                                <!-- Custom Theme JavaScript -->
+                                <script src="js/agency.js"></script>
+
+
+                            </body>
+
+                            </html>
