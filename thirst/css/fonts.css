@@ -1,14 +1,12 @@
 @font-face {
-    font-family: InputSans-Black;
-    src: url(../fonts/InputSans/InputSans-Black.tff);
+    font-family: InputSans-Thin;
+    src: url(../fonts/InputSans/InputSans-Thin.ttf);
 }
 
 @font-face {
-    font-family: InputSans-ThinItalic;
-    src: url(../fonts/InputSans/InputSans-ThinItalic.tff);
+    font-family: InputSans-Medium;
+    src: url(../fonts/InputSans/InputSans-Medium.ttf);
 }
-
-
 
 .inputsansnarrow {
   font-family: "Input Sans Narr";
