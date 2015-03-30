@@ -1,8 +1,8 @@
 @import url("fonts.css");
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  /*font-family: 'Lora', 'Times New Roman', serif;*/
+  /*font-size: 20px;*/
   background: #C0C0C0;
 }
 p {
@@ -16,7 +16,7 @@ h2 {
   font-weight: 900;
 }
 h3{
-  font-weight: 100;
+  font-size: 13px;
 }
 
 a {
@@ -51,10 +51,12 @@ hr.small {
 }
 .navbar-default {
   /*border-color: transparent;*/
+  font-family: InputSans-Bold;
+  font-size: 10px;
 }
 
 .navbar-default .navbar-brand {
-  color: #fed136;
+  color: white;
   /*margin-top: 0px;*/
   padding-top: 0px;
 }
@@ -71,8 +73,8 @@ hr.small {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: black;
+  background-color: black;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -81,7 +83,7 @@ hr.small {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: white;
 }
 
 .navbar-default .nav li a {
@@ -94,13 +96,14 @@ hr.small {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: #fed136;
+  background-color: grey;
+  color: white;
 }
 
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
   color: #fff;
-  background-color: #fed136;
+  background-color: white;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -109,10 +112,20 @@ hr.small {
   background-color: #fec503;
 }
 
+.navbar-left{
+  background-color: red;
+  margin-left: 6%;
+}
+.navbar-left li a{
+  background-color: red;
+  padding-bottom: 0%;
+}
+
+
 
 @media(min-width:768px) {
   .navbar-default {
-    padding: 25px 0;
+    padding: 25px 0px 0px 0px;
     border: 0;
     background-color: transparent;
     -webkit-transition: padding .3s;
@@ -149,6 +162,9 @@ hr.small {
 
 /*header*/
 
+.intro-header .post-heading{
+  font-size: 10px
+}
 .intro-header {
   background-color: #808080;
   background: no-repeat center center;
@@ -157,18 +173,17 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
   font-family: 'InputSans-Medium', Helvetica;
 }
 .sub {
   font-family:'InputSans-Thin', Helvetica;
-  /*background-color:red;*/
 }
 
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 100px 0 0;
   color: black;
 }
 @media only screen and (min-width: 768px) {
@@ -209,7 +224,6 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
@@ -226,6 +240,13 @@ hr.small {
     font-size: 30px;
   }
 }
+.info {
+  font-size: 11px;
+  text-decoration: underline;
+  margin-top: 60px;
+  font-family: 'InputSans-Light', Helvetica;
+}
+
 /*portfolio section*/
 #portfolio .portfolio-item {
   /*right: 0;*/
@@ -305,6 +326,7 @@ hr.small {
 
 footer {
   padding: 50px 0 65px;
+  font-family: 'InputSans-Light', Helvetica;
 }
 footer .list-inline {
   margin: 0;
