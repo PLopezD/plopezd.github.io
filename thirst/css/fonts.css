@@ -12,6 +12,10 @@
     font-family: InputSans-Light;
     src: url(../fonts/InputSans/InputSans-Light.ttf);
 }
+@font-face {
+    font-family: InputSans-Bold;
+    src: url(../fonts/InputSans/InputSans-Bold.ttf);
+}
 
 .inputsansnarrow {
   font-family: "Input Sans Narr";
