@@ -1,0 +1,96 @@
+@font-face {
+    font-family: InputSans-Black;
+    src: url(../fonts/InputSans/InputSans-Black.tff);
+}
+
+@font-face {
+    font-family: InputSans-ThinItalic;
+    src: url(../fonts/InputSans/InputSans-ThinItalic.tff);
+}
+
+
+
+.inputsansnarrow {
+  font-family: "Input Sans Narr";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.inputsansnarrowblack {
+  font-family: "Input Sans Narr Blk";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.inputsansnarrowblackitalic {
+  font-family: "Input Sans Narr Blk";
+  font-style: italic;
+  font-weight: normal;
+}
+
+.inputsansnarrowbold {
+  font-family: "Input Sans Narr";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.inputsansnarrowbolditalic {
+  font-family: "Input Sans Narr";
+  font-style: italic;
+  font-weight: bold;
+}
+
+.inputsansnarrowextralight {
+  font-family: "Input Sans Narr Ex Lt";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.inputsansnarrowextralightitalic {
+  font-family: "Input Sans Narr Ex Lt";
+  font-style: italic;
+  font-weight: normal;
+}
+
+.inputsansnarrowitalic {
+  font-family: "Input Sans Narr";
+  font-style: italic;
+  font-weight: normal;
+}
+
+.inputsansnarrowlight {
+  font-family: "Input Sans Narr Lt";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.inputsansnarrowlightitalic {
+  font-family: "Input Sans Narr Lt";
+  font-style: italic;
+  font-weight: normal;
+}
+
+.inputsansnarrowmedium {
+  font-family: "Input Sans Narr Md";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.inputsansnarrowmediumitalic {
+  font-family: "Input Sans Narr Md";
+  font-style: italic;
+  font-weight: normal;
+}
+
+.inputsansnarrowthin {
+  font-family: "Input Sans Narr Thin";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.inputsansnarrowthinitalic {
+  font-family: "Input Sans Narr Thin";
+  font-style: italic;
+  font-weight: normal;
+}
+

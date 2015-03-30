@@ -1,7 +1,4 @@
-@font-face{
-  font-family: 'thirst';
-  src: url('tagesschrift.ttf');
-}
+@import url("fonts.css");
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -46,12 +43,14 @@ hr.small {
 
 /*nav*/
 .navbar-brand img{
-
+  position:absolute;
+  top:0px;
+  left:0px;
   width:75px;
   height:75px;
 }
 .navbar-default {
-    border-color: transparent;
+    /*border-color: transparent;*/
 }
 
 .navbar-default .navbar-brand {
@@ -140,6 +139,12 @@ hr.small {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+@media(max-width:768px) {
+      .navbar-default img{
+        height:50px;
+        width:50px;
+      }
 }
 
 /*header*/
@@ -354,4 +359,8 @@ footer .copyright {
   background-color: #0085a1;
   border: 1px solid #0085a1;
   color: white;
+}
+
+b{
+  font-family: 'InputSans-ThinItalic'
 }
