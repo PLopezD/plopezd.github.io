@@ -8,6 +8,11 @@
     src: url(../fonts/InputSans/InputSans-Medium.ttf);
 }
 
+@font-face {
+    font-family: InputSans-Light;
+    src: url(../fonts/InputSans/InputSans-Light.ttf);
+}
+
 .inputsansnarrow {
   font-family: "Input Sans Narr";
   font-style: normal;
