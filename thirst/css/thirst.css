@@ -113,11 +113,11 @@ hr.small {
 }
 
 .navbar-left{
-  background-color: red;
+  /*background-color: red;*/
   margin-left: 6%;
 }
 .navbar-left li a{
-  background-color: red;
+  /*background-color: red;*/
   padding-bottom: 0%;
 }
 
