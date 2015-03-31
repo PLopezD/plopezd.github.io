@@ -72,9 +72,9 @@ hr.small {
   color: #fec503;
 }
 
+
 .navbar-default .navbar-collapse {
-  border-color: rgba(255,255,255,.02);
-  background-color: grey
+  /*border-color: rgba(255,255,255,.02);*/
 }
 
 .navbar-default .navbar-toggle {
@@ -83,7 +83,6 @@ hr.small {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
- 
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -100,8 +99,6 @@ hr.small {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  /*outline: 0;*/
-  /*background-color: grey;*/
   text-decoration: underline;
   color: white;
 }
@@ -199,38 +196,43 @@ hr.small {
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
+
 }
 @media(max-width:768px) {
   .navbar-default img{
     height:50px;
     width:50px;
   } 
+  .navbar-collapse {
+    background: grey;
+  }
+
 
   .locate{
     /*position: absolute;*/
     z-index: 100 !important
   }
   .navbar-left {
-  margin-left: -15px;
-}
+    margin-left: -15px;
+  }
 }
 
 /*header*/
 textarea:focus, input:focus {
-    /*background: black;*/
-    color: black;
-    border: none
+  /*background: black;*/
+  color: black;
+  border: none
 }
 input {
-    font-family:'InputSans-Thin', Helvetica;
-    background: #E6E6E6;
-    color:black;
-    border: none;
-    height: 20px;
-    width: 150px; 
-    margin: 0px;
-    padding: 0px;
-    font-size: 10px
+  font-family:'InputSans-Thin', Helvetica;
+  background: #E6E6E6;
+  color:black;
+  border: none;
+  height: 20px;
+  width: 150px; 
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px
 }
 input[type=image]{
   width: 20px;
@@ -246,15 +248,15 @@ form{
 }
 
 select{
-      font-family:'InputSans-Thin', Helvetica;
-    background: #E6E6E6;
-    color:black;
-    border: none;
-    height: 20px;
-    width: 150px; 
-    margin: 0px;
-    padding: 0px;
-    font-size: 10px;
+  font-family:'InputSans-Thin', Helvetica;
+  background: #E6E6E6;
+  color:black;
+  border: none;
+  height: 20px;
+  width: 150px; 
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
 }
 .locate{
   margin-top: 100px; 
@@ -296,18 +298,18 @@ select{
 .intro-header .page-heading {
   padding: 50px 0 0;
   color: black;
-    /*clear:both;*/
+  /*clear:both;*/
 }
-  .sub {
-    padding-top: 0px;
-  }
+.sub {
+  padding-top: 0px;
+}
 @media only screen and (max-width: 768px) {
   .intro-header {
     padding-top: 75px;
   }
   .locate{
-  margin-top: 0px; 
-}
+    margin-top: 0px; 
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -474,16 +476,16 @@ footer .copyright {
 
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    black;
+  color:    black;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    black;
-   opacity:  1;
+ color:    black;
+ opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    black;
-   opacity:  1;
+ color:    black;
+ opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    black;
+ color:    black;
 }
