@@ -53,11 +53,15 @@ hr.small {
   /*border-color: transparent;*/
   font-family: InputSans-Bold;
   font-size: 10px;
+  height: 5px
+}
+.navbar-default ul li a{
+  margin-bottom: 0px;
+  padding-bottom: 0px
 }
 
 .navbar-default .navbar-brand {
   color: white;
-  /*margin-top: 0px;*/
   padding-top: 0px;
 }
 
@@ -74,7 +78,6 @@ hr.small {
 
 .navbar-default .navbar-toggle {
   border:none;
-
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -88,7 +91,6 @@ hr.small {
 }
 
 .navbar-default .nav li a {
-  text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
   color: black;
@@ -96,8 +98,9 @@ hr.small {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  outline: 0;
-  background-color: grey;
+  /*outline: 0;*/
+  /*background-color: grey;*/
+  text-decoration: underline;
   color: white;
 }
 
@@ -113,25 +116,66 @@ hr.small {
   background-color: #fec503;
 }
 
-.navbar-left{
-  /*background-color: red;*/
+.navbar-left {
   margin-left: 6%;
-}
-.navbar-left li a{
-  /*background-color: red;*/
-  /*padding-bottom: 0%;*/
+  vertical-align: bottom !important
 }
 
+.navbar-left li {
+  margin-bottom: 0px;
+  padding-bottom: 0px
+}
+
+@media(min-width:1100px) {
+  .participate{
+    padding-right: 350px
+  }
+  .fortyfive{
+    padding-right: 335px
+  }
+  .navbar-left{
+
+  }
+}
+@media(max-width:1200px) {
+  .participate{
+    padding-right: 200px;
+  }
+  .fortyfive{
+    padding-right: 296px
+  }
+  .navbar-left{
+
+  }
+}
+
+
+@media(max-width:991px) {
+  .participate{
+    padding-right: 150px;
+  }
+  .fortyfive{
+    padding-right: 140px;
+
+  }
+  .navbar-left{
+
+  }
+}
 
 
 @media(min-width:768px) {
   .navbar-default {
-    padding: 25px 0px 0px 0px;
+    /*padding: 25px 0px 0px 0px;*/
     border: 0;
     background-color: transparent;
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
+  }
+
+  .navbar-left{
+    padding: 10px 0px 0px 0px;
   }
 
   .navbar-default .navbar-brand {
@@ -159,10 +203,14 @@ hr.small {
     height:50px;
     width:50px;
   } 
+
   .locate{
     /*position: absolute;*/
     z-index: 100 !important
   }
+  .navbar-left {
+  margin-left: -15px;
+}
 }
 
 /*header*/
