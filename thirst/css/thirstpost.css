@@ -6,14 +6,19 @@ body {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  text-decoration: underline;
-  color: grey;
+	text-decoration: underline;
+	color: grey;
 }
-
 
 .head	{
 	margin-top: 100px;
 	margin-bottom: 75px
+}
+
+@media(max-width:768px) {
+	.head	{
+		margin-top: -50px;
+	}
 }
 
 .sub{   
@@ -38,9 +43,28 @@ body {
 	height: 330px;
 	width:330px;
 }
-.diagram{
 
+.diagram{
+	margin-right: 70%;
+	margin-left: -175px;
 }
+.diagram span{
+	font-size: 11px
+}
+@media(max-width:1160px) {
+.diagram{
+	margin-right: 40%;
+	margin-left: -100px;
+}
+}
+
+@media(max-width:950px) {
+.diagram{
+	margin-right: 0%;
+	margin-left: 0px;
+}
+}
+
 
 
 
