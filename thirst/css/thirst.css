@@ -73,17 +73,20 @@ hr.small {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: black;
-  background-color: black;
+  
+  border:none;
+
+  /*background-color: black;*/
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: black;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: red;
+  background-color: #c6c6c6;
+  border: none;
 }
 
 .navbar-default .nav li a {
@@ -303,7 +306,7 @@ input {
 .info {
   font-size: 11px;
   text-decoration: underline;
-  /*margin-top: 60px;*/
+  margin-top: 30px;
   font-family: 'InputSans-Light', Helvetica;
 }
 
