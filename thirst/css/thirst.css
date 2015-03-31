@@ -73,10 +73,8 @@ hr.small {
 }
 
 .navbar-default .navbar-toggle {
-  
   border:none;
 
-  /*background-color: black;*/
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -162,7 +160,8 @@ hr.small {
     width:50px;
   } 
   .locate{
-    position: absolute;
+    /*position: absolute;*/
+    z-index: 100 !important
   }
 }
 
@@ -182,6 +181,30 @@ input {
     margin: 0px;
     padding: 0px;
     font-size: 10px
+}
+input[type=image]{
+  width: 20px;
+  bottom: 0px;
+  /*vertical align is important*/
+  vertical-align: bottom;
+}
+form{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+
+}
+
+select{
+      font-family:'InputSans-Thin', Helvetica;
+    background: #E6E6E6;
+    color:black;
+    border: none;
+    height: 20px;
+    width: 150px; 
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
 }
 .locate{
   margin-top: 100px; 
@@ -245,8 +268,6 @@ input {
     float:center;
   }
 }
-
-
 
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -399,26 +420,6 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
-}
-
-.btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  border-radius: 0;
-  padding: 15px 25px;
-}
-.btn-lg {
-  font-size: 16px;
-  padding: 25px 35px;
-}
-.btn-default:hover,
-.btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
-  color: white;
 }
 
 
