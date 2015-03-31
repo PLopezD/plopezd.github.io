@@ -51,7 +51,7 @@ hr.small {
 }
 .navbar-default {
   /*border-color: transparent;*/
-  font-family: InputSans-Bold;
+  font-family: 'InputSans-Bold';
   font-size: 10px;
   height: 5px
 }

@@ -1,0 +1,53 @@
+@import url("fonts.css");
+
+body {
+	background: white;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  text-decoration: underline;
+  color: grey;
+}
+
+
+.head	{
+	margin-top: 100px;
+	margin-bottom: 75px
+}
+
+.sub{   
+	font-family: 'InputSans-Bold', Helvetica;
+}
+.sub h4 {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.sub a{
+	text-decoration: underline;
+}
+
+.post{
+	font-family:'InputSans-Thin', Helvetica;
+}
+.showbox{
+	position: absolute;
+	left:0px;
+	top:225px;
+	height: 350px;
+	width:350px;
+}
+.diagram{
+	
+}
+
+
+
+
+
+
+
+
+
+
