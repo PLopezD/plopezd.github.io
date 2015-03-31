@@ -74,6 +74,7 @@ hr.small {
 
 .navbar-default .navbar-collapse {
   border-color: rgba(255,255,255,.02);
+  background-color: grey
 }
 
 .navbar-default .navbar-toggle {
@@ -82,6 +83,7 @@ hr.small {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
+ 
 }
 
 .navbar-default .navbar-toggle:hover,
