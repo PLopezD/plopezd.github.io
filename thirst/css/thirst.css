@@ -132,19 +132,24 @@ hr.small {
 }
 .top-nav{
   padding-top: 25px;
+  padding-left: 0px
 }
 .top-nav a{
    color:black;
 }
 .bottom-nav {
   padding-top: 40px;
-  border:solid red;
 }
 .bottom-nav a{
   color:black;
+  padding-left: 0px;
 }
 .fortyfive{
   padding-left: 0px;
+}
+
+.login{
+  padding-left: 25px;
 }
 
 
@@ -259,31 +264,21 @@ option{
   margin-top: 100px; 
 }
 .search {
-  float: right;
-  margin: 0px;
-  padding:0%;
-  padding-left: -125px;
-  margin-right: 8%
+  padding-left: 20px;
+
 }
 .search input[type=search]{
-  width: 140px
+  width: 150px
 }
 .sort {
   margin-bottom: 0%; 
   float: left;
 }
 
-@media(max-width:1200px) {
-  .locate{
+@media(max-width:1100px) {
+  .container{
+    /*margin-left: 75px*/
   }
-  .search {
-    margin-right: 0;
-  }
-  .search input[type=search]{
-   /*background: red*/
- }
- .sort {
- }
 }
 
 .intro-header .post-heading{
