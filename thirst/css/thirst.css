@@ -174,7 +174,6 @@ hr.small {
 
   .navbar-default .navbar-brand {
     font-size: 2em;
-
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -194,7 +193,7 @@ hr.small {
   }
 
 }
-@media(max-width:768px) {
+@media(max-width:766px) {
   .navbar-default img{
     height:50px;
     width:50px;
@@ -203,7 +202,6 @@ hr.small {
     margin-left: 0px
   }
   .navbar-collapse {
-
     background: grey;
 
   }

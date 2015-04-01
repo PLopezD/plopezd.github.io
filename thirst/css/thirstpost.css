@@ -3,6 +3,9 @@
 body {
 	background: white;
 }
+h2{
+	font-size: 25px
+}
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -40,13 +43,19 @@ body {
 	position: absolute;
 	left:0px;
 	top:220px;
-	height: 330px;
-	width:330px;
+	height: 300px;
+	width:300px;
+}
+.pink{
+	background: pink
 }
 
 .diagram{
 	margin-right: 70%;
 	margin-left: -175px;
+}
+.diagram img{
+	width: 600px
 }
 .diagram span{
 	font-size: 11px
