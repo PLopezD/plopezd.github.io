@@ -12,19 +12,23 @@ p {
 p a {
   text-decoration: underline;
 }
+a:hover{
+  text-decoration: none
+}
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 h3{
-  font-size: 13px;
+  font-size: 11px;
 }
 
 a {
   color: #404040;
+
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: white;
 }
 a img:hover,
 a img:focus {
@@ -50,19 +54,20 @@ hr.small {
   height:75px;
 }
 .navbar-default {
-  /*border-color: transparent;*/
+  border-color: transparent;
   font-family: 'InputSans-Bold';
   font-size: 10px;
   height: 5px
 }
 .navbar-default ul li a{
   margin-bottom: 0px;
-  padding-bottom: 0px
+  padding-bottom: 0px;
 }
 
 .navbar-default .navbar-brand {
   color: white;
-  padding-top: 0px;
+  padding: 0px
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -70,6 +75,7 @@ hr.small {
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
   color: #fec503;
+
 }
 
 
@@ -83,6 +89,7 @@ hr.small {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
+  
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -92,14 +99,13 @@ hr.small {
 }
 
 .navbar-default .nav li a {
-  font-weight: 400;
-  letter-spacing: 1px;
   color: black;
+  font-size: 11px;
+  letter-spacing: 0px;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  text-decoration: underline;
   color: white;
 }
 
@@ -116,56 +122,45 @@ hr.small {
 }
 
 .navbar-left {
-  margin-left: 6%;
+  margin-left: 7%;
   vertical-align: bottom !important
 }
 
-.navbar-left li {
-  margin-bottom: 0px;
-  padding-bottom: 0px
+.top-nav{
+  padding-top: 25px;
+  padding-left: 0px
+}
+.top-nav a{
+ color:black;
+}
+.bottom-nav {
+  padding-top: 40px;
 }
 
-@media(min-width:1100px) {
-  .participate{
-    padding-right: 350px
-  }
-  .fortyfive{
-    padding-right: 335px
-  }
-  .navbar-left{
-
-  }
-}
-@media(max-width:1200px) {
-  .participate{
-    padding-right: 200px;
-  }
-  .fortyfive{
-    padding-right: 296px
-  }
-  .navbar-left{
-
+@media(max-width:1200px){
+  .bottom-nav {
+    padding-top: 25px;
   }
 }
 
+.bottom-nav a{
+  color:black;
+  padding-left: 0px;
+}
+.fortyfive{
+  padding-left: 0px;
+}
 
-@media(max-width:991px) {
-  .participate{
-    padding-right: 150px;
-  }
-  .fortyfive{
-    padding-right: 140px;
-
-  }
-  .navbar-left{
-
-  }
+.login{
+  /*padding-left: 25px;*/
 }
 
 
 @media(min-width:768px) {
+
   .navbar-default {
     /*padding: 25px 0px 0px 0px;*/
+
     border: 0;
     background-color: transparent;
     -webkit-transition: padding .3s;
@@ -179,6 +174,7 @@ hr.small {
 
   .navbar-default .navbar-brand {
     font-size: 2em;
+
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -203,17 +199,19 @@ hr.small {
     height:50px;
     width:50px;
   } 
-  .navbar-collapse {
-    background: grey;
+  .container{
+    margin-left: 0px
   }
+  .navbar-collapse {
 
+    background: grey;
 
+  }
   .locate{
-    /*position: absolute;*/
     z-index: 100 !important
   }
-  .navbar-left {
-    margin-left: -15px;
+  .bottom-nav {
+    margin-bottom: 15px;
   }
 }
 
@@ -229,16 +227,18 @@ input {
   color:black;
   border: none;
   height: 20px;
-  width: 150px; 
+  /*width: 150px; */
   margin: 0px;
   padding: 0px;
-  font-size: 10px
+  font-size: 10px;
+  padding-left: 5px;
 }
 input[type=image]{
-  width: 20px;
+  /*width: 20px;*/
   bottom: 0px;
   /*vertical align is important*/
   vertical-align: bottom;
+  display: inline;
 }
 form{
   margin: 0px;
@@ -247,7 +247,7 @@ form{
 
 }
 
-select{
+select {
   font-family:'InputSans-Thin', Helvetica;
   background: #E6E6E6;
   color:black;
@@ -255,24 +255,35 @@ select{
   height: 20px;
   width: 150px; 
   margin: 0px;
-  padding: 0px;
+  padding-left: 5px;
   font-size: 10px;
+  -webkit-appearance: none;
+  border-radius: 0px
+}
+option{
+  border-radius: 0px;
 }
 .locate{
+  border-radius: 0px;
   margin-top: 100px; 
 }
 .search {
-  float: right;
-  right:0px;
+  padding-left: 20px;
+
+}
+.search input[type=search]{
+  width: 150px
 }
 .sort {
   margin-bottom: 0%; 
-  /*position: absolute;*/
   float: left;
-  /*left:0px;*/
 }
 
-
+@media(max-width:1100px) {
+  .container{
+    /*margin-left: 75px*/
+  }
+}
 
 .intro-header .post-heading{
   font-size: 10px
@@ -313,6 +324,7 @@ select{
 }
 
 @media only screen and (max-width: 390px) {
+
   .sort{
     float:center;
   }
@@ -386,7 +398,7 @@ select{
 /*portfolio section*/
 #portfolio .portfolio-item {
   /*right: 0;*/
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -400,6 +412,7 @@ select{
   width: 100%;
   height: 100%;
   opacity: 0;
+  /*this is the color of the hovered item in the body */
   background: black;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
@@ -412,13 +425,14 @@ select{
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 20px;
-  margin-top: -12px;
-  text-align: center;
-  font-size: 20px;
+  margin: 7px;
+  font-size: 8.5px;
+  font-family: 'InputSans-light', Helvetica; 
+  /*this is the color of the text in the hovered items in the body*/  
+  font-style: normal;
+  font-weight: bold;
   color: white;
+  
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -438,17 +452,11 @@ select{
   background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
-  text-transform: none;
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content p {
+  margin: 5px;
+  padding: 0px;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
-  margin: 0;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-style: italic;
-}
 
 #portfolio * {
   z-index: 2;
@@ -461,7 +469,10 @@ select{
 }
 
 footer {
-  padding: 50px 0 65px;
+  background: #C0C0C0;
+  color: black;
+  letter-spacing: 0px;
+  padding: 15px ;
   font-family: 'InputSans-Light', Helvetica;
 }
 footer .list-inline {
@@ -469,23 +480,8 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-size: 14px;
+  font-size: 8.5px;
   text-align: center;
   margin-bottom: 0;
 }
 
-
-::-webkit-input-placeholder { /* WebKit browsers */
-  color:    black;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
- color:    black;
- opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
- color:    black;
- opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
- color:    black;
-}
