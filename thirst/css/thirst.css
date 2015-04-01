@@ -425,7 +425,7 @@ option{
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
-  margin: 10px;
+  margin: 7px;
   font-size: 8.5px;
   font-family: 'InputSans-light', Helvetica; 
   /*this is the color of the text in the hovered items in the body*/  
