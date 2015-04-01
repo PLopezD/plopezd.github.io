@@ -16,10 +16,10 @@ a:hover{
   text-decoration: none
 }
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 h3{
-  font-size: 13px;
+  font-size: 11px;
 }
 
 a {
@@ -54,7 +54,7 @@ hr.small {
   height:75px;
 }
 .navbar-default {
-  /*border-color: transparent;*/
+  border-color: transparent;
   font-family: 'InputSans-Bold';
   font-size: 10px;
   height: 5px
@@ -126,20 +126,23 @@ hr.small {
   vertical-align: bottom !important
 }
 
-.navbar-left li {
-  margin-bottom: 0px;
-  padding-bottom: 0px
-}
 .top-nav{
   padding-top: 25px;
   padding-left: 0px
 }
 .top-nav a{
-   color:black;
+ color:black;
 }
 .bottom-nav {
   padding-top: 40px;
 }
+
+@media(max-width:1200px){
+  .bottom-nav {
+    padding-top: 25px;
+  }
+}
+
 .bottom-nav a{
   color:black;
   padding-left: 0px;
@@ -149,7 +152,7 @@ hr.small {
 }
 
 .login{
-  padding-left: 25px;
+  /*padding-left: 25px;*/
 }
 
 
@@ -200,14 +203,15 @@ hr.small {
     margin-left: 0px
   }
   .navbar-collapse {
+
     background: grey;
 
   }
   .locate{
     z-index: 100 !important
   }
-  .navbar-left {
-    margin-left: -15px;
+  .bottom-nav {
+    margin-bottom: 15px;
   }
 }
 
