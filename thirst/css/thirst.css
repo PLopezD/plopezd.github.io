@@ -432,7 +432,24 @@ option{
   font-style: normal;
   font-weight: bold;
   color: white;
-  overflow-y: scroll;
+  
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 400px;
+  text-align: center;
+  background-color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content p {
