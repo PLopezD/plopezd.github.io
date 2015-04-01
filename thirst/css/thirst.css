@@ -21,6 +21,7 @@ h3{
 
 a {
   color: #404040;
+
 }
 a:hover,
 a:focus {
@@ -57,7 +58,7 @@ hr.small {
 }
 .navbar-default ul li a{
   margin-bottom: 0px;
-  padding-bottom: 0px
+  padding-bottom: 0px;
 }
 
 .navbar-default .navbar-brand {
@@ -70,6 +71,7 @@ hr.small {
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
   color: #fec503;
+
 }
 
 
@@ -83,6 +85,7 @@ hr.small {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
+  
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -92,9 +95,10 @@ hr.small {
 }
 
 .navbar-default .nav li a {
-  font-weight: 400;
   letter-spacing: 1px;
   color: black;
+  font-size: 11px;
+  letter-spacing: 1px;
 }
 
 .navbar-default .nav li a:hover,
@@ -144,7 +148,7 @@ hr.small {
   }
   .navbar-left{
 
-  margin-left: -20px;
+    margin-left: -20px;
   }
 }
 
@@ -166,6 +170,7 @@ hr.small {
 @media(min-width:768px) {
   .navbar-default {
     /*padding: 25px 0px 0px 0px;*/
+
     border: 0;
     background-color: transparent;
     -webkit-transition: padding .3s;
@@ -179,6 +184,7 @@ hr.small {
 
   .navbar-default .navbar-brand {
     font-size: 2em;
+
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -205,11 +211,9 @@ hr.small {
   } 
   .navbar-collapse {
     background: grey;
+
   }
-
-
   .locate{
-    /*position: absolute;*/
     z-index: 100 !important
   }
   .navbar-left {
@@ -259,11 +263,13 @@ select {
   margin: 0px;
   padding-left: 5px;
   font-size: 10px;
-  border-radius: 0px;
+  
+  
+  
   -webkit-appearance: none;
+  border-radius: 0px
 }
 option{
-  -webkit-appearance: none;
   border-radius: 0px;
 }
 .locate{
@@ -271,7 +277,7 @@ option{
   margin-top: 100px; 
 }
 .search {
-  width: 100%;
+  /*width: 80%;*/
   /*float: right;*/
   /*margin-left:1%;*/
 }
@@ -450,7 +456,10 @@ option{
 }
 
 footer {
-  padding: 50px 0 65px;
+  background: #C0C0C0;
+  color: black;
+  letter-spacing: 0px;
+  padding: 15px ;
   font-family: 'InputSans-Light', Helvetica;
 }
 footer .list-inline {
@@ -458,7 +467,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-size: 14px;
+  font-size: 8.5px;
   text-align: center;
   margin-bottom: 0;
 }
