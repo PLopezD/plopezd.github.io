@@ -99,7 +99,6 @@ hr.small {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  text-decoration: underline;
   color: white;
 }
 
@@ -145,6 +144,7 @@ hr.small {
   }
   .navbar-left{
 
+  margin-left: -20px;
   }
 }
 
@@ -229,16 +229,18 @@ input {
   color:black;
   border: none;
   height: 20px;
-  width: 150px; 
+  /*width: 150px; */
   margin: 0px;
   padding: 0px;
-  font-size: 10px
+  font-size: 10px;
+  padding-left: 5px;
 }
 input[type=image]{
-  width: 20px;
-  bottom: 0px;
+  /*width: 20px;*/
+  /*bottom: 0px;*/
   /*vertical align is important*/
   vertical-align: bottom;
+  display: inline;
 }
 form{
   margin: 0px;
@@ -247,7 +249,7 @@ form{
 
 }
 
-select{
+select {
   font-family:'InputSans-Thin', Helvetica;
   background: #E6E6E6;
   color:black;
@@ -255,20 +257,28 @@ select{
   height: 20px;
   width: 150px; 
   margin: 0px;
-  padding: 0px;
+  padding-left: 5px;
   font-size: 10px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+}
+option{
+  -webkit-appearance: none;
+  border-radius: 0px;
 }
 .locate{
+  border-radius: 0px;
   margin-top: 100px; 
 }
 .search {
-  float: right;
-  right:0px;
+  width: 100%;
+  /*float: right;*/
+  /*margin-left:1%;*/
 }
 .sort {
   margin-bottom: 0%; 
   /*position: absolute;*/
-  float: left;
+  /*float: left;*/
   /*left:0px;*/
 }
 
@@ -386,7 +396,7 @@ select{
 /*portfolio section*/
 #portfolio .portfolio-item {
   /*right: 0;*/
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -400,7 +410,8 @@ select{
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: rgba(254,209,54,.9);
+  /*this is the color of the hovered item in the body */
+  background: black;
   -webkit-transition: all ease .5s;
   -moz-transition: all ease .5s;
   transition: all ease .5s;
@@ -412,43 +423,21 @@ select{
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 20px;
-  margin-top: -12px;
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
+  margin: 10px;
+  font-size: 8.5px;
+  font-family: 'InputSans-light', Helvetica; 
+  /*this is the color of the text in the hovered items in the body*/  
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  overflow-y: scroll;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content p {
+  margin: 5px;
+  padding: 0px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-  margin: 0 auto;
-  padding: 25px;
-  max-width: 400px;
-  text-align: center;
-  background-color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
-  text-transform: none;
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-  margin: 0;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-style: italic;
-}
 
 #portfolio * {
   z-index: 2;
@@ -474,18 +463,3 @@ footer .copyright {
   margin-bottom: 0;
 }
 
-
-::-webkit-input-placeholder { /* WebKit browsers */
-  color:    black;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
- color:    black;
- opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
- color:    black;
- opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
- color:    black;
-}
