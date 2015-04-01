@@ -193,7 +193,7 @@ hr.small {
   }
 
 }
-@media(max-width:766px) {
+@media(max-width:768px) {
   .navbar-default img{
     height:50px;
     width:50px;
