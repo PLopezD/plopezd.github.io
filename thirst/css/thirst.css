@@ -75,7 +75,6 @@ hr.small {
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
   color: #fec503;
-
 }
 
 
@@ -119,11 +118,6 @@ hr.small {
 .navbar-default .navbar-nav>.active>a:focus {
   color: #fff;
   background-color: #fec503;
-}
-
-.navbar-left {
-  margin-left: 7%;
-  vertical-align: bottom !important
 }
 
 .top-nav{
@@ -277,9 +271,14 @@ option{
   float: left;
 }
 
-@media(max-width:1100px) {
-  .container{
-    /*margin-left: 75px*/
+@media(max-width:400px) {
+ .search input[type=search]{
+  width:145px
+}
+  .search{
+    float:left;
+    margin-left: 0px;
+    padding-left: 0px;
   }
 }
 
