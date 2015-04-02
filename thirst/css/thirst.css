@@ -77,11 +77,15 @@ hr.small {
   color: #fec503;
 }
 
-
-.navbar-default .navbar-collapse {
-  /*border-color: rgba(255,255,255,.02);*/
+@media(max-width:768px) {
+  .navbar-default .navbar-collapse .top-nav a,
+  .navbar-default .navbar-collapse .bottom-nav a
+  {
+    padding-top: 10px;
+    padding-left: 0px;
+    display: block
+  }
 }
-
 .navbar-default .navbar-toggle {
   border:none;
 }
@@ -193,7 +197,7 @@ hr.small {
     width:50px;
   } 
   .container{
-    margin-left: 0px
+    /*margin-left: 0px*/
   }
   .navbar-collapse {
     background: grey;
@@ -275,11 +279,11 @@ option{
  .search input[type=search]{
   width:145px
 }
-  .search{
-    float:left;
-    margin-left: 0px;
-    padding-left: 0px;
-  }
+.search{
+  float:left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
 }
 
 .intro-header .post-heading{
