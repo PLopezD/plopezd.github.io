@@ -57,7 +57,8 @@ hr.small {
   border-color: transparent;
   font-family: 'InputSans-Bold';
   font-size: 10px;
-  height: 5px
+  height: 5px;
+  background:transparent;
 }
 .navbar-default ul li a{
   margin-bottom: 0px;
@@ -88,6 +89,7 @@ hr.small {
 }
 .navbar-default .navbar-toggle {
   border:none;
+
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -156,8 +158,6 @@ hr.small {
 @media(min-width:768px) {
 
   .navbar-default {
-    /*padding: 25px 0px 0px 0px;*/
-
     border: 0;
     background-color: transparent;
     -webkit-transition: padding .3s;
@@ -182,7 +182,7 @@ hr.small {
 
   .navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color: #222;
+    
   }
 
   .navbar-default.navbar-shrink .navbar-brand {
@@ -219,14 +219,14 @@ textarea:focus, input:focus {
 input {
   font-family:'InputSans-Thin', Helvetica;
   background: #E6E6E6;
-  color:black;
+  color: black;
   border: none;
   height: 20px;
   /*width: 150px; */
   margin: 0px;
   padding: 0px;
   font-size: 10px;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 input[type=image]{
   /*width: 20px;*/
@@ -243,6 +243,7 @@ form{
 }
 
 select {
+  padding-left: 10px;
   font-family:'InputSans-Thin', Helvetica;
   background: #E6E6E6;
   color:black;
