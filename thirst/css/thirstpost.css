@@ -55,25 +55,30 @@ h2{
 .diagram span{
 	font-size: 11px
 }
-@media(max-width:1160px) {
-.diagram{
-	margin-right: 40%;
-	margin-left: -100px;
-}
+@media(max-width:1200px) {
+	.diagram{
+		margin-right: 40%;
+		margin-left: -100px;
+	}
+	.showbox{
+		width:11%;
+	}
 }
 
-@media(max-width:950px) {
-.diagram{
-	margin-right: 0%;
-	margin-left: 0px;
-}
+@media(max-width:955px) {
+	.diagram {
+		margin-right: 0%;
+		margin-left: 0px;
+
+	}
+	.showbox{
+		width:4%;
+	}
 }
 
 .sign{
 	padding-bottom: 50px
 }
-
-
 
 
 @media(max-width:768px) {
