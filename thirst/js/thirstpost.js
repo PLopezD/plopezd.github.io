@@ -1,6 +1,6 @@
 $(document).ready(function() {
 		var winWidth = $( window ).width() 
-	if(winWidth < 768){
+	if(winWidth < 1200){
 		$("#logo")[0].src = "../img/white.png"
 		$("#logo").addClass('pink')
 		$(".showbox").hide()
@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 	$( window ).resize(function() {
 		var resizeWidth = $( window ).width() 
-		if (resizeWidth < 768){
+		if (resizeWidth < 1200){
 			$("#logo")[0].src = "../img/white.png"
 			$("#logo").addClass('pink')
 			$(".showbox").hide()
