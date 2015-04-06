@@ -4,22 +4,23 @@ $(document).ready(function() {
 
 $('#primary').change(function(e) {
 	e.preventDefault()
-	var selection = $('.sort option:selected').val();
+	var selection = $('#primary option:selected').val();
 	var secondaryMenu = $("#secondary")
-	
+	console.log(selection)
 	if (selection == 'type'){
-		secondaryMenu.toggle()
+		secondaryMenu.show()
 		setOptions(["Design","UX","Other"])
 		return
 	} else if (selection == 'author'){
-		secondaryMenu.toggle()
+		secondaryMenu.show()
 		setOptions(["John","Taek","Pablo"])
 		return
 	} else if ($(secondaryMenu).is(":visible") ) {
 		secondaryMenu.toggle()
 		console.log("Sort by Date!")
-	}
 
+		return
+	}
 });
 
 var setOptions = function(arrayOfOptions){
@@ -30,6 +31,15 @@ var setOptions = function(arrayOfOptions){
 
 	};
 }
+
+// JS to show additional sort box
+
+$('#secondary').change(function(e) {
+	e.preventDefault()
+	var selection = $('#secondary option:selected').val();
+	console.log(selection)
+});
+
 
 $('.search').submit(function(e) {
 	e.preventDefault()
