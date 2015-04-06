@@ -32,7 +32,6 @@ form{
   margin: 0px;
   padding: 0px;
   display: block;
-
 }
 
 select {
@@ -283,7 +282,14 @@ hr.small {
   float: left;
 }
 
+#secondary{
+  display:none;
+}
 
+#secondary select{
+  margin-left: 28px;
+  
+}
 
 .intro-header .post-heading{
   font-size: 10px
@@ -495,13 +501,13 @@ footer .copyright {
 }
 @media(max-width:400px) {
  .search input[type=search]{
-    width:145px;
-  }
-  .search{
-    float:left;
-    margin-left: 0px;
-    padding-left: 0px;
-  }
+  width:145px;
+}
+.search{
+  float:left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
 }
 
 @media(max-width:1200px) {
@@ -523,6 +529,9 @@ footer .copyright {
   .search input[type=search]{
     width:185px;
   }
+  #secondary select{
+    width: 208px;
+  }
   .login {
     margin-left: 0%
   }
@@ -534,15 +543,22 @@ footer .copyright {
   }
 }
 
-@media(max-width:470px) {
+@media(max-width:769px) {
   .search input[type=search]{
-    margin-left: 0px
+    margin-left: 0px;
   }
-    .sort{
+  .sort{
+    margin-top: 10px;
     float:center;
   }
   .search{
+    margin-top: 10px;
+    padding-left: 0px;
     float:center;
+  }
+  #secondary select{
+    margin-left: 0px;
+    width: 195px;
   }
 }
 

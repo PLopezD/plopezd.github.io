@@ -18,9 +18,9 @@ $(document).ready(function() {
 			$("#logo").removeClass('purple')
 			$(".showbox").show()
 		}
-
 	});
 
+// jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 		$('a.page-scroll').bind('click', function(event) {
 			var $anchor = $(this);
@@ -30,5 +30,7 @@ $(document).ready(function() {
 			event.preventDefault();
 		});
 	});
+
+
 
 });
