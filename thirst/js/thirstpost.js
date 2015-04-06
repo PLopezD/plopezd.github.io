@@ -1,5 +1,6 @@
 $(document).ready(function() {
-		var winWidth = $( window ).width() 
+	// JQuery to change logo on page resize
+	var winWidth = $( window ).width() 
 	if(winWidth < 768){
 		$("#logo")[0].src = "../img/white.png"
 		$("#logo").addClass('purple')
@@ -19,6 +20,5 @@ $(document).ready(function() {
 		}
 
 	});
-
 
 });

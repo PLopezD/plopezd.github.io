@@ -43,6 +43,14 @@ h2{
 	height: 303px;
 	width:300px;
 }
+
+#toparrow{
+	z-index: 100;
+	cursor: pointer;
+	position:fixed;
+	bottom: 0px;
+	left: 0px
+}
 .purple {
 	background: #C389BA
 }
@@ -99,8 +107,6 @@ h2{
 	.showbox{
 		background: white
 	}
-	
-
 }
 
 

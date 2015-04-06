@@ -97,6 +97,7 @@ hr.small {
 
 /*nav*/
 .navbar-brand img{
+  cursor: default;
   position:absolute;
   top:0px;
   right:0px;
