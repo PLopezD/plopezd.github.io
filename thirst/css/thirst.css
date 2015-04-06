@@ -67,7 +67,7 @@ h2 {
   font-size: 30px;
 }
 h3{
-  font-size: 11px;
+  font-size: 12px;
 }
 
 a {
@@ -312,6 +312,7 @@ hr.small {
 }
 .sub {
   margin-top: 0px;
+  padding-top: 0px;
   font-family:'InputSans-Thin', Helvetica;
 }
 
@@ -320,11 +321,8 @@ hr.small {
 .intro-header .page-heading {
   padding: 50px 0 0;
   color: black;
-  /*clear:both;*/
 }
-.sub {
-  padding-top: 0px;
-}
+
 @media only screen and (max-width: 768px) {
   .intro-header {
     padding-top: 75px;
