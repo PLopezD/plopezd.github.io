@@ -109,6 +109,7 @@ hr.small {
   font-size: 10px;
   height: 5px;
   background:transparent;
+
 }
 .navbar-default ul li a{
   margin-bottom: 0px;
@@ -117,8 +118,12 @@ hr.small {
 
 .navbar-default .navbar-brand {
   color: white;
-  padding: 0px
+  padding: 0px;
+  
 
+}
+.bottom-nav a {
+  padding-right: 53px
 }
 
 .navbar-default .navbar-brand:hover,
@@ -126,6 +131,7 @@ hr.small {
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
   color: #fec503;
+
 }
 
 @media(max-width:768px) {
@@ -134,7 +140,8 @@ hr.small {
   {
     padding-top: 10px;
     padding-left: 0px;
-    display: block
+    display: block;
+    
   }
 }
 .navbar-default .navbar-toggle {
@@ -157,6 +164,7 @@ hr.small {
   color: black;
   font-size: 11px;
   letter-spacing: 0px;
+
 }
 
 .collapse a:hover {
@@ -167,6 +175,7 @@ hr.small {
   border-radius: 0;
   color: #fff;
   background-color: white;
+
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
