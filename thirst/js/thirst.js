@@ -18,21 +18,9 @@ $('#primary').change(function(e) {
 	} else if ($(secondaryMenu).is(":visible") ) {
 		secondaryMenu.toggle()
 		console.log("Sort by Date!")
-
 		return
 	}
 });
-
-var setOptions = function(arrayOfOptions){
-	var secondaryMenu = document.querySelector("#secondary select")
-	for (var i = arrayOfOptions.length - 1; i >= 0; i--) {
-		option = new Option( arrayOfOptions[i],arrayOfOptions[i] );
-		secondaryMenu.options[i] = option;
-
-	};
-}
-
-// JS to show additional sort box
 
 $('#secondary').change(function(e) {
 	e.preventDefault()
@@ -40,11 +28,19 @@ $('#secondary').change(function(e) {
 	console.log(selection)
 });
 
-
 $('.search').submit(function(e) {
 	e.preventDefault()
-
 	console.log("search submit")
 });
+
+
+
+var setOptions = function(arrayOfOptions){
+	var secondaryMenu = document.querySelector("#secondary select")
+	for (var i = arrayOfOptions.length - 1; i >= 0; i--) {
+		option = new Option( arrayOfOptions[i],arrayOfOptions[i] );
+		secondaryMenu.options[i] = option;
+	};
+}
 
 });
