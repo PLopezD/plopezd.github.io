@@ -143,6 +143,9 @@ hr.small {
     display: block;
     
   }
+  .info{
+    padding-bottom: 20px;
+  }
 }
 .navbar-default .navbar-toggle {
   border:none;
