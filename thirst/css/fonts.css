@@ -17,6 +17,14 @@
     src: url(../fonts/InputSans/InputSans-Bold.ttf);
 }
 
+@font-face {
+    font-family: InputSans-Narrow;
+    src: url(../fonts/InputSans/InputSans-ExtraLight.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 
 .inputsansnarrow {
   font-family: "Input Sans Narr";

@@ -7,6 +7,20 @@ h2{
 	font-size: 25px
 }
 
+@media(max-width:890px){
+  #logo{
+    left:auto;
+    right:0px;
+  }
+}
+@media(max-width:768px){
+  #logo{
+  	right:auto;
+    left:0px;
+  }
+}
+
+
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
 	text-decoration: underline;
@@ -32,7 +46,7 @@ h2{
 }
 
 .post{
-	font-family:'InputSans-Thin', Helvetica;
+	font-family:'InputSans-Narrow', Helvetica;
 }
 .showbox{
 	position: absolute;
