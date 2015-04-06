@@ -123,7 +123,8 @@ hr.small {
   
 }
 .bottom-nav a {
-  padding-right: 53px
+  padding-right: 53px;
+  padding-left: 0px
 }
 
 .navbar-default .navbar-brand:hover,

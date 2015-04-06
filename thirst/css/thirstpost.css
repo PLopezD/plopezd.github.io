@@ -4,7 +4,8 @@ body {
 	background: white;
 }
 h2{
-	font-size: 25px
+	font-size: 25px;
+	margin-top: 0px;
 }
 
 
@@ -25,7 +26,7 @@ h2{
 	font-family: 'InputSans-Bold', Helvetica;
 }
 .sub h4 {
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 15px;
 }
 
@@ -76,25 +77,20 @@ h2{
 		margin-left: -100px;
 	}
 	.showbox{
-		width:11%;
+		width:10%;
 	}
 }
 
-@media(max-width:955px) {
+@media(max-width:990px) {
 	.diagram {
 		margin-right: 0%;
 		margin-left: 0px;
 
 	}
 	.showbox{
-		width:4%;
+		width:3%;
 	}
 }
-
-.sign{
-	padding-bottom: 50px
-}
-
 
 @media(max-width:768px) {
 	.head	{
@@ -106,6 +102,9 @@ h2{
 	}
 	.showbox{
 		background: white
+	}
+	h2{
+		padding-top: 30px
 	}
 }
 
