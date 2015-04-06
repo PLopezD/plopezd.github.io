@@ -39,6 +39,7 @@ h2{
 }
 .showbox{
 	position: absolute;
+	background-image: url("../img/inverted.png");
 	left:0px;
 	top:220px;
 	height: 303px;
@@ -77,7 +78,7 @@ h2{
 		margin-left: -100px;
 	}
 	.showbox{
-		width:10%;
+		width:100px;
 	}
 }
 
@@ -85,10 +86,9 @@ h2{
 	.diagram {
 		margin-right: 0%;
 		margin-left: 0px;
-
 	}
 	.showbox{
-		width:3%;
+		width:25px;
 	}
 }
 
