@@ -9,7 +9,7 @@ $(document).ready(function() {
 	$( window ).resize(function() {
 		var resizeWidth = $( window ).width() 
 		if (resizeWidth < 768){
-			$("#logo")[0].src = "../img/white.png"
+			$("#logo")[0].src = "../img/invertedlogo.png"
 			$("#logo").addClass('purple')
 			$(".showbox").hide()
 		} else {

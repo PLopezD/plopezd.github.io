@@ -40,12 +40,17 @@ h2{
 	position: absolute;
 	left:0px;
 	top:220px;
-	height: 300px;
+	height: 303px;
 	width:300px;
 }
-.purple{
+.purple {
 	background: #C389BA
 }
+
+#purple a:hover{
+	color: #C389BA
+}
+
 
 .diagram{
 	margin-right: 70%;
