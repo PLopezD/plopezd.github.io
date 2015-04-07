@@ -19,9 +19,6 @@ h2{
 	margin-bottom: 75px
 }
 
-.fortyfive div{
-	/*border:red solid;*/
-}
 .top{
 	padding-top:25px;
 	padding-bottom:25px;
@@ -133,10 +130,6 @@ h2{
 		padding-top: 0px;
 		padding-bottom: 0px
 	}
-	.bottom{
-		padding-top: 0px;
-		padding-bottom: 0px
-	}
 	.collapse{
 		padding-bottom: 10px;
 	}
@@ -149,14 +142,15 @@ h2{
 		padding-left: 0px;
 	}
 	.bottom{
-		/*padding-top: 10px;*/
+		padding-top: 0px;
+		padding-bottom: 0px;
 		padding-left: 0px;
 		display:block;
 	}
 	.navbar-collapse {
 		padding-top: 10px	
 	}
-	.navbar-collapse div{
+	.navbar-collapse div {
 		padding-top: 10px	
 	}
 	#ignore{
