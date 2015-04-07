@@ -32,8 +32,6 @@ $('.search').submit(function(e) {
 	console.log("search submit")
 });
 
-
-
 var setOptions = function(arrayOfOptions){
 	var secondaryMenu = document.querySelector("#secondary select")
 	for (var i = arrayOfOptions.length - 1; i >= 0; i--) {
