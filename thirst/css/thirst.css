@@ -103,6 +103,9 @@ hr.small {
   height:75px;
 }
 
+.volume{
+  margin-left: -55px
+}
 .navbar-default {
   border-color: transparent;
   font-family: 'InputSans-Bold';
@@ -177,7 +180,6 @@ hr.small {
   border-radius: 0;
   color: #fff;
   background-color: white;
-
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
