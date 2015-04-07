@@ -541,13 +541,17 @@ footer .copyright {
   }
 }
 
+
+
 @media(max-width:769px) {
   .search input[type=search]{
     margin-left: 0px;
+    width: 90%;
   }
   .sort{
     margin-top: 10px;
     float:center;
+    margin-right: -10px
   }
   .search{
     margin-top: 10px;
@@ -555,8 +559,11 @@ footer .copyright {
     float:center;
   }
   #secondary select{
+    width: 90%;
     margin-left: 0px;
-    width: 195px;
+  }
+  select{
+    width: 90%;
   }
 }
 

@@ -1,7 +1,6 @@
 $(document).ready(function() {
 	console.log('Ready!')
 // JS to show additional sort box
-
 $('#primary').change(function(e) {
 	e.preventDefault()
 	var selection = $('#primary option:selected').val();
