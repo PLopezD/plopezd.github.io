@@ -1,0 +1,67 @@
+
+.site-heading{
+	margin-top: 50px;
+}
+.col-lg-10{
+	padding-left: 0px
+}
+.col-lg-5{
+	padding-left: 0px;
+	/*border: red solid;*/
+}
+
+form{
+	padding-left: 0px
+}
+input{
+	width: 100%;
+}
+label{
+  font-family:'InputSans-Thin', Helvetica;
+}
+
+textarea {
+	width: 100%;
+  font-family:'InputSans-Thin', Helvetica;
+  background: #E6E6E6;
+  color: black;
+  border: none;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+  padding-left: 10px;
+
+}
+
+.tbutton{
+	float:left;
+	font-family:'InputSans-Thin', Helvetica;
+	padding-left: 5px   ;
+	padding-right: 5px   ;
+	margin-top: 75px	;
+	border-radius: 0px;
+	background: #E6E6E6;
+  	color: black;
+}
+.tbutton:hover{
+	background:grey;
+}
+
+
+@media(max-width:768px) {
+	.site-heading	{
+		margin-top: -80px
+	}
+
+}
+@media(max-width:1200px) {
+	.site-heading	{
+		margin-bottom: 50px
+	}
+	.tbutton{
+		margin-top: 10px
+	}
+}
+
+
