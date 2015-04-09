@@ -103,6 +103,9 @@ hr.small {
   height:75px;
 }
 
+.volume{
+  margin-left: -55px
+}
 .navbar-default {
   border-color: transparent;
   font-family: 'InputSans-Bold';
@@ -121,11 +124,23 @@ hr.small {
   padding: 0px;
   
 }
-.bottom-nav a {
-  padding-right: 53px;
-  padding-left: 0px
+.top{
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.bottom{
+  display:inline;
+}
+.other{
+  padding-left: 25px
 }
 
+.account{
+  padding-left: 25px
+}
+.reg {
+  padding-left: 30px;
+}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -145,6 +160,42 @@ hr.small {
   .info{
     padding-bottom: 20px;
   }
+    .top{
+    padding-top: 0px;
+    padding-bottom: 0px
+  }
+  .collapse{
+    padding-bottom: 10px;
+  }
+  .participate{
+    padding-left: 0px;
+    /*padding-top: 10px;*/
+  }
+  .account{
+    padding-left: 0px;
+  }
+    .account a{
+    display:block;
+    padding-top: 10px;
+    padding-left: 0px;
+
+  }
+  .bottom{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display:block;
+  }
+  .navbar-collapse {
+    padding-top: 10px 
+  }
+  .navbar-collapse div {
+    padding-top: 10px 
+  }
+  #ignore{
+    display:none;
+  }
+
 }
 .navbar-default .navbar-toggle {
   border:none;
@@ -177,7 +228,6 @@ hr.small {
   border-radius: 0;
   color: #fff;
   background-color: white;
-
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -193,7 +243,6 @@ hr.small {
 .navbar a{
  color:black;
  font-size: 11px;
- /*border:red solid;*/
 }
 
 .bottom-nav {
@@ -249,19 +298,13 @@ hr.small {
     height:50px;
     width:50px;
   } 
-  .container{
-    /*margin-left: 0px*/
-  }
   .navbar-collapse {
     background: grey;
-
   }
   .locate{
     z-index: 100 !important
   }
-  .bottom-nav {
-    margin-bottom: 15px;
-  }
+
 }
 
 /*header*/
@@ -494,7 +537,6 @@ footer .copyright {
     padding-right-right: 0px;
     width: auto;
     margin-left: 0px;
-    border: solid red;
   }
 }
 @media(max-width:400px) {

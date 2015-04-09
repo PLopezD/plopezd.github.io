@@ -19,10 +19,18 @@ h2{
 	margin-bottom: 75px
 }
 
-
-
-.bottom-nav .login{
-	padding-left:25px;
+.top{
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.bottom{
+	display:inline;
+}
+.other{
+	padding-left: 25px
+}
+.account{
+	padding-left: 20px
 }
 
 .sub{   
@@ -112,15 +120,55 @@ h2{
 		margin-top: -55px;
 		margin-bottom: 0px;
 	}
-	.sub	{
+	.sub{
 		padding-top: -70px;
 	}
 	.showbox{
 		background: white
+	}
+	.top{
+		padding-top: 0px;
+		padding-bottom: 0px
+	}
+	.collapse{
+		padding-bottom: 10px;
+	}
+	.participate{
+		padding-left: 0px;
+		/*padding-top: 10px;*/
+	}
+	.account{
+		margin-top: -10px;
+		padding-left: 0px;
+	}
+	.bottom{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		display:block;
+	}
+	.navbar-collapse {
+		padding-top: 10px	
+	}
+	.navbar-collapse div {
+		padding-top: 10px	
+	}
+	#ignore{
+		display:none;
 	}
 	h2{
 		padding-top: 30px
 	}
 }
 
+
+.drop ul {
+	display:none;
+
+}
+.drop:hover ul {
+	position:absolute;
+	display:block;
+
+}
 
