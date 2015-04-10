@@ -13,6 +13,9 @@
 h2{
 	font-family: 'InputSans-Medium', Helvetica;
 }
+h4{
+	font-family: 'InputSans-Medium', Helvetica;
+}
 form{
 	padding-left: 0px
 }
@@ -51,16 +54,19 @@ textarea {
 .tbutton:hover{
 	background:grey;
 }
-.small{
+a#small{
 	text-decoration:underline;
 	font-family:'InputSans-Thin', Helvetica;
-	padding-top:-20px;
-	font-size: 10px
+	font-size: 10px;
+	padding-bottom: 20px;
+	padding-top: 0px;
 }
 .unique{
 	margin-bottom: 0px 
 }
-
+.normal{
+	text-decoration: underline;
+}
 @media(max-width:768px) {
 	.site-heading	{
 		margin-top: -80px
